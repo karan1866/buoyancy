@@ -1,0 +1,17 @@
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\bin\x86\Debug\iCapture.exe
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\bin\x86\Debug\iCapture.pdb
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\bin\x86\Debug\iCapture.xml
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\x86\Debug\K15.frmAbout.resources
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\x86\Debug\K15.Capture.resources
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\x86\Debug\K15.Dialog1.resources
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\x86\Debug\K15.Flash.resources
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\x86\Debug\K15.frmCrop.resources
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\x86\Debug\K15.frmCapture.resources
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\x86\Debug\K15.frmFullScreen.resources
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\x86\Debug\K15.frmSettings.resources
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\x86\Debug\K15.Resources.resources
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\x86\Debug\iCapture.vbproj.GenerateResource.Cache
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\x86\Debug\iCapture.exe
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\x86\Debug\iCapture.xml
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\x86\Debug\iCapture.pdb

@@ -1,0 +1,146 @@
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\iCapture\iCapture\bin\Debug\iCapture.exe
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\iCapture\iCapture\bin\Debug\iCapture.pdb
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\iCapture\iCapture\bin\Debug\iCapture.xml
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\iCapture\iCapture\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\iCapture\iCapture\obj\Debug\iCapture.Resources.resources
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\iCapture\iCapture\obj\Debug\iCapture.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\iCapture\iCapture\obj\Debug\iCapture.exe
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\iCapture\iCapture\obj\Debug\iCapture.xml
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\iCapture\iCapture\obj\Debug\iCapture.pdb
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\iCapture\iCapture\obj\Debug\iCapture.frmCapture.resources
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\iCapture\iCapture\obj\Debug\iCapture.frmFullScreen.resources
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\iCapture\iCapture\obj\Debug\iCapture.frmCrop.resources
+C:\Users\Karan\Desktop\iCapture\iCapture\obj\Debug\iCapture.exe
+C:\Users\Karan\Desktop\iCapture\iCapture\obj\Debug\iCapture.xml
+C:\Users\Karan\Desktop\iCapture\iCapture\obj\Debug\iCapture.pdb
+C:\Users\Karan\Desktop\iCapture\iCapture\bin\Debug\iCapture.exe
+C:\Users\Karan\Desktop\iCapture\iCapture\bin\Debug\iCapture.pdb
+C:\Users\Karan\Desktop\iCapture\iCapture\bin\Debug\iCapture.xml
+C:\Users\Karan\Desktop\iCapture\iCapture\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Karan\Desktop\iCapture\iCapture\obj\Debug\iCapture.frmCapture.resources
+C:\Users\Karan\Desktop\iCapture\iCapture\obj\Debug\iCapture.frmCrop.resources
+C:\Users\Karan\Desktop\iCapture\iCapture\obj\Debug\iCapture.frmFullScreen.resources
+C:\Users\Karan\Desktop\iCapture\iCapture\obj\Debug\iCapture.Resources.resources
+C:\Users\Karan\Desktop\iCapture\iCapture\obj\Debug\iCapture.vbproj.GenerateResource.Cache
+C:\Users\Karan\Desktop\iCapture\iCapture\obj\Debug\iCapture.Capture.resources
+C:\Users\Karan\Desktop\iCapture\iCapture\obj\Debug\iCapture.Flash.resources
+C:\Users\Karan\Desktop\iCapture\iCapture\obj\Debug\iCapture.Dialog1.resources
+C:\Documents and Settings\Administrator\Desktop\iCapture\iCapture\obj\Debug\iCapture.exe
+C:\Documents and Settings\Administrator\Desktop\iCapture\iCapture\obj\Debug\iCapture.xml
+C:\Documents and Settings\Administrator\Desktop\iCapture\iCapture\obj\Debug\iCapture.pdb
+C:\Documents and Settings\Administrator\Desktop\iCapture\iCapture\bin\Debug\iCapture.exe
+C:\Documents and Settings\Administrator\Desktop\iCapture\iCapture\bin\Debug\iCapture.pdb
+C:\Documents and Settings\Administrator\Desktop\iCapture\iCapture\bin\Debug\iCapture.xml
+C:\Documents and Settings\Administrator\Desktop\iCapture\iCapture\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\iCapture\iCapture\obj\Debug\iCapture.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\Desktop\iCapture\iCapture\obj\Debug\K15.frmAbout.resources
+C:\Documents and Settings\Administrator\Desktop\iCapture\iCapture\obj\Debug\K15.Capture.resources
+C:\Documents and Settings\Administrator\Desktop\iCapture\iCapture\obj\Debug\K15.Dialog1.resources
+C:\Documents and Settings\Administrator\Desktop\iCapture\iCapture\obj\Debug\K15.Flash.resources
+C:\Documents and Settings\Administrator\Desktop\iCapture\iCapture\obj\Debug\K15.frmCrop.resources
+C:\Documents and Settings\Administrator\Desktop\iCapture\iCapture\obj\Debug\K15.frmCapture.resources
+C:\Documents and Settings\Administrator\Desktop\iCapture\iCapture\obj\Debug\K15.frmFullScreen.resources
+C:\Documents and Settings\Administrator\Desktop\iCapture\iCapture\obj\Debug\K15.frmSettings.resources
+C:\Documents and Settings\Administrator\Desktop\iCapture\iCapture\obj\Debug\K15.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\K15\iCapture\iCapture\obj\Debug\iCapture.exe
+C:\Documents and Settings\Administrator\Desktop\K15\iCapture\iCapture\obj\Debug\iCapture.xml
+C:\Documents and Settings\Administrator\Desktop\K15\iCapture\iCapture\obj\Debug\iCapture.pdb
+C:\Documents and Settings\Administrator\Desktop\K15\iCapture\iCapture\bin\Debug\iCapture.exe
+C:\Documents and Settings\Administrator\Desktop\K15\iCapture\iCapture\bin\Debug\iCapture.pdb
+C:\Documents and Settings\Administrator\Desktop\K15\iCapture\iCapture\bin\Debug\iCapture.xml
+C:\Documents and Settings\Administrator\Desktop\K15\iCapture\iCapture\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\K15\iCapture\iCapture\obj\Debug\K15.frmAbout.resources
+C:\Documents and Settings\Administrator\Desktop\K15\iCapture\iCapture\obj\Debug\K15.Capture.resources
+C:\Documents and Settings\Administrator\Desktop\K15\iCapture\iCapture\obj\Debug\K15.Dialog1.resources
+C:\Documents and Settings\Administrator\Desktop\K15\iCapture\iCapture\obj\Debug\K15.Flash.resources
+C:\Documents and Settings\Administrator\Desktop\K15\iCapture\iCapture\obj\Debug\K15.frmCrop.resources
+C:\Documents and Settings\Administrator\Desktop\K15\iCapture\iCapture\obj\Debug\K15.frmCapture.resources
+C:\Documents and Settings\Administrator\Desktop\K15\iCapture\iCapture\obj\Debug\K15.frmFullScreen.resources
+C:\Documents and Settings\Administrator\Desktop\K15\iCapture\iCapture\obj\Debug\K15.frmSettings.resources
+C:\Documents and Settings\Administrator\Desktop\K15\iCapture\iCapture\obj\Debug\K15.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\K15\iCapture\iCapture\obj\Debug\iCapture.vbproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\Windows\iCapture\iCapture\obj\Debug\iCapture.exe
+\\vmware-host\Shared Folders\Windows\iCapture\iCapture\obj\Debug\iCapture.xml
+\\vmware-host\Shared Folders\Windows\iCapture\iCapture\obj\Debug\iCapture.pdb
+\\vmware-host\Shared Folders\Windows\iCapture\iCapture\bin\Debug\iCapture.exe
+\\vmware-host\Shared Folders\Windows\iCapture\iCapture\bin\Debug\iCapture.pdb
+\\vmware-host\Shared Folders\Windows\iCapture\iCapture\bin\Debug\iCapture.xml
+\\vmware-host\Shared Folders\Windows\iCapture\iCapture\obj\Debug\ResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Windows\iCapture\iCapture\obj\Debug\K15.frmAbout.resources
+\\vmware-host\Shared Folders\Windows\iCapture\iCapture\obj\Debug\K15.Capture.resources
+\\vmware-host\Shared Folders\Windows\iCapture\iCapture\obj\Debug\K15.Dialog1.resources
+\\vmware-host\Shared Folders\Windows\iCapture\iCapture\obj\Debug\K15.Flash.resources
+\\vmware-host\Shared Folders\Windows\iCapture\iCapture\obj\Debug\K15.frmCrop.resources
+\\vmware-host\Shared Folders\Windows\iCapture\iCapture\obj\Debug\K15.frmCapture.resources
+\\vmware-host\Shared Folders\Windows\iCapture\iCapture\obj\Debug\K15.frmFullScreen.resources
+\\vmware-host\Shared Folders\Windows\iCapture\iCapture\obj\Debug\K15.frmSettings.resources
+\\vmware-host\Shared Folders\Windows\iCapture\iCapture\obj\Debug\K15.Resources.resources
+\\vmware-host\Shared Folders\Windows\iCapture\iCapture\obj\Debug\iCapture.vbproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\Windows\Projects\iCapture 1.2\iCapture\obj\Debug\iCapture.exe
+\\vmware-host\Shared Folders\Windows\Projects\iCapture 1.2\iCapture\obj\Debug\iCapture.xml
+\\vmware-host\Shared Folders\Windows\Projects\iCapture 1.2\iCapture\obj\Debug\iCapture.pdb
+\\vmware-host\Shared Folders\Windows\Projects\iCapture 1.2\iCapture\bin\Debug\iCapture.exe
+\\vmware-host\Shared Folders\Windows\Projects\iCapture 1.2\iCapture\bin\Debug\iCapture.pdb
+\\vmware-host\Shared Folders\Windows\Projects\iCapture 1.2\iCapture\bin\Debug\iCapture.xml
+\\vmware-host\Shared Folders\Windows\Projects\iCapture 1.2\iCapture\obj\Debug\ResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Windows\Projects\iCapture 1.2\iCapture\obj\Debug\K15.frmAbout.resources
+\\vmware-host\Shared Folders\Windows\Projects\iCapture 1.2\iCapture\obj\Debug\K15.Capture.resources
+\\vmware-host\Shared Folders\Windows\Projects\iCapture 1.2\iCapture\obj\Debug\K15.Dialog1.resources
+\\vmware-host\Shared Folders\Windows\Projects\iCapture 1.2\iCapture\obj\Debug\K15.Flash.resources
+\\vmware-host\Shared Folders\Windows\Projects\iCapture 1.2\iCapture\obj\Debug\K15.frmCrop.resources
+\\vmware-host\Shared Folders\Windows\Projects\iCapture 1.2\iCapture\obj\Debug\K15.frmCapture.resources
+\\vmware-host\Shared Folders\Windows\Projects\iCapture 1.2\iCapture\obj\Debug\K15.frmFullScreen.resources
+\\vmware-host\Shared Folders\Windows\Projects\iCapture 1.2\iCapture\obj\Debug\K15.frmSettings.resources
+\\vmware-host\Shared Folders\Windows\Projects\iCapture 1.2\iCapture\obj\Debug\K15.Resources.resources
+\\vmware-host\Shared Folders\Windows\Projects\iCapture 1.2\iCapture\obj\Debug\iCapture.vbproj.GenerateResource.Cache
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\Debug\iCapture.exe
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\Debug\iCapture.xml
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\Debug\iCapture.pdb
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\bin\Debug\iCapture.exe
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\bin\Debug\iCapture.pdb
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\bin\Debug\iCapture.xml
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\Debug\K15.frmAbout.resources
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\Debug\K15.Capture.resources
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\Debug\K15.Dialog1.resources
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\Debug\K15.Flash.resources
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\Debug\K15.frmCrop.resources
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\Debug\K15.frmCapture.resources
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\Debug\K15.frmFullScreen.resources
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\Debug\K15.frmSettings.resources
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\Debug\K15.Resources.resources
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\Debug\iCapture.vbproj.GenerateResource.Cache
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.4\iCapture\obj\Debug\iCapture.exe
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.4\iCapture\obj\Debug\iCapture.xml
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.4\iCapture\obj\Debug\iCapture.pdb
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.2.1\iCapture\obj\Debug\iCapture.exe
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.2.1\iCapture\obj\Debug\iCapture.xml
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.2.1\iCapture\obj\Debug\iCapture.pdb
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.2.1\iCapture\bin\Debug\iCapture.exe
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.2.1\iCapture\bin\Debug\iCapture.pdb
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.2.1\iCapture\bin\Debug\iCapture.xml
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.2.1\iCapture\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.2.1\iCapture\obj\Debug\K15.frmAbout.resources
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.2.1\iCapture\obj\Debug\K15.Capture.resources
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.2.1\iCapture\obj\Debug\K15.Dialog1.resources
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.2.1\iCapture\obj\Debug\K15.Flash.resources
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.2.1\iCapture\obj\Debug\K15.frmCrop.resources
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.2.1\iCapture\obj\Debug\K15.frmCapture.resources
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.2.1\iCapture\obj\Debug\K15.frmFullScreen.resources
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.2.1\iCapture\obj\Debug\K15.frmSettings.resources
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.2.1\iCapture\obj\Debug\K15.Resources.resources
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.2.1\iCapture\obj\Debug\iCapture.vbproj.GenerateResource.Cache
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.4\iCapture\bin\Debug\iCapture.exe
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.4\iCapture\bin\Debug\iCapture.pdb
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.4\iCapture\bin\Debug\iCapture.xml
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.4\iCapture\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.4\iCapture\obj\Debug\K15.frmAbout.resources
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.4\iCapture\obj\Debug\K15.Capture.resources
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.4\iCapture\obj\Debug\K15.Dialog1.resources
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.4\iCapture\obj\Debug\K15.Flash.resources
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.4\iCapture\obj\Debug\K15.frmCrop.resources
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.4\iCapture\obj\Debug\K15.frmCapture.resources
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.4\iCapture\obj\Debug\K15.frmFullScreen.resources
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.4\iCapture\obj\Debug\K15.frmSettings.resources
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.4\iCapture\obj\Debug\K15.Resources.resources
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.4\iCapture\obj\Debug\iCapture.vbproj.GenerateResource.Cache

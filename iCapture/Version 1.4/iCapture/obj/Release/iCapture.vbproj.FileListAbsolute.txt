@@ -1,0 +1,34 @@
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\bin\Release\iCapture.exe
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\bin\Release\iCapture.pdb
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\bin\Release\iCapture.xml
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\Release\iCapture.vbproj.GenerateResource.Cache
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\Release\iCapture.exe
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\Release\iCapture.xml
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\Release\iCapture.pdb
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\Release\K15.frmAbout.resources
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\Release\K15.Capture.resources
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\Release\K15.Dialog1.resources
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\Release\K15.Flash.resources
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\Release\K15.frmCrop.resources
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\Release\K15.frmCapture.resources
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\Release\K15.frmFullScreen.resources
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\Release\K15.frmSettings.resources
+C:\Users\Karan\Desktop\iCapture 1.2\iCapture\obj\Release\K15.Resources.resources
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.4\iCapture\obj\Release\iCapture.exe
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.4\iCapture\obj\Release\iCapture.xml
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.4\iCapture\obj\Release\iCapture.pdb
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.4\iCapture\bin\Release\iCapture.exe
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.4\iCapture\bin\Release\iCapture.pdb
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.4\iCapture\bin\Release\iCapture.xml
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.4\iCapture\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.4\iCapture\obj\Release\K15.frmAbout.resources
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.4\iCapture\obj\Release\K15.Capture.resources
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.4\iCapture\obj\Release\K15.Dialog1.resources
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.4\iCapture\obj\Release\K15.Flash.resources
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.4\iCapture\obj\Release\K15.frmCrop.resources
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.4\iCapture\obj\Release\K15.frmCapture.resources
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.4\iCapture\obj\Release\K15.frmFullScreen.resources
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.4\iCapture\obj\Release\K15.frmSettings.resources
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.4\iCapture\obj\Release\K15.Resources.resources
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\iCapture\Version 1.4\iCapture\obj\Release\iCapture.vbproj.GenerateResource.Cache

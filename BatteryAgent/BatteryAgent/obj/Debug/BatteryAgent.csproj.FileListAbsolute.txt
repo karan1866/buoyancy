@@ -1,0 +1,12 @@
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\BatteryAgent\BatteryAgent\bin\Debug\BatteryAgent.exe
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\BatteryAgent\BatteryAgent\bin\Debug\BatteryAgent.pdb
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\BatteryAgent\BatteryAgent\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\BatteryAgent\BatteryAgent\obj\Debug\wpfMain.baml
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\BatteryAgent\BatteryAgent\obj\Debug\wpfMain.g.cs
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\BatteryAgent\BatteryAgent\obj\Debug\App.g.cs
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\BatteryAgent\BatteryAgent\obj\Debug\BatteryAgent_MarkupCompile.cache
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\BatteryAgent\BatteryAgent\obj\Debug\BatteryAgent.g.resources
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\BatteryAgent\BatteryAgent\obj\Debug\BatteryAgent.Properties.Resources.resources
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\BatteryAgent\BatteryAgent\obj\Debug\BatteryAgent.csproj.GenerateResource.Cache
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\BatteryAgent\BatteryAgent\obj\Debug\BatteryAgent.exe
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\BatteryAgent\BatteryAgent\obj\Debug\BatteryAgent.pdb

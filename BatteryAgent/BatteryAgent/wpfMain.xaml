@@ -1,0 +1,15 @@
+﻿<Window x:Class="BatteryAgent.wpfMain"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Topmost="True" Icon="battery.ico"
+    Title="wpfMain" Focusable="False" Opacity="0" Height="300" Width="300" Background="{x:Null}" WindowStyle="None" AllowsTransparency="True" WindowStartupLocation="CenterScreen" ShowInTaskbar="False" Loaded="Window_Loaded">
+	<Window.Resources>
+	</Window.Resources>
+	<Window.Triggers>
+	</Window.Triggers>
+    <Grid>
+    	<Image Name="Critical" Source="critical.png" Stretch="Fill"/>
+    	<Image Name="Safe" Source="safe.png" Stretch="Fill"/>
+        <MediaElement Volume="1" Name="media" Source="C:\Users\Karan\AppData\Roaming\battery.mp3" UnloadedBehavior="Manual" LoadedBehavior="Manual" MediaEnded="media_MediaEnded">
+        </MediaElement>
+    </Grid>
+</Window>
