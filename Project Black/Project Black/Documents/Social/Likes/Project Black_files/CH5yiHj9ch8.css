@@ -1,0 +1,41 @@
+/*1301360518,169775559*/
+
+.fbProfileLargePortrait{margin:2px 0 0 1px;width:75px;word-wrap:break-word}
+.fbProfileLargePortrait .photoCrop{background:#eee;height:75px;overflow:hidden;position:absolute;width:75px}
+.fbProfileLargePortrait .photoWrapper{height:79px}
+.fbProfileLargePortraitImgScaleHeight{height:75px;position:relative}
+.fbProfileLargePortraitImgScaleWidth{position:relative;width:75px}
+.fbProfileLargePortraitImgSmall{background-position:center 10%}
+.fbProfileLargePortraitImgMedium{background-position:center 15%}
+.fbProfileLargePortraitImgLarge{background-position:center 20%}
+.fbProfileLagePortraitImgHuge{background-position:center 30%}
+.standardLayout .filterBox{padding:6px 7px 6px 5px}
+.standardLayout table{border-collapse:collapse;width:100%}
+.standardLayout td{padding:0}
+.standardLayout .fullWidth,.standardLayout .uiTypeahead{width:100%}
+.standardLayout .hasSelector .uiTypeahead .wrap{border-left:0}
+.standardLayout .hubsLoading .throbber{display:block}
+.standardLayout .hubsLoading .selected .uiCloseButton{display:none}
+.switchableLayout .buttonsCell{padding-left:6px}
+.fbProfileBrowserList li{padding:4px}
+.fbProfileBrowserList .async_saving{position:relative}
+.fbProfileBrowserList .async_saving .loadingIndicator{background:url(https://s-static.ak.facebook.com/rsrc.php/v1/zb/r/GsNJNwuI-UM.gif) no-repeat 0 0;height:11px;left:50%;margin:-5px 0 0 -6px;position:absolute;top:50%;width:16px}
+.fbProfileBrowserList .async_saving .auxiliaryButton{visibility:hidden}
+.normal .largeList,.large .normalList{display:none}
+.fbProfileBrowserLargeList li:first-child,.fbProfileBrowserLargeList .expandedList li:first-child{border-top:none;padding:0}
+.listView .throbber,.showListviewLoading .lists{display:none}
+.showListviewLoading .throbber{display:block;margin:0 auto;position:relative;top:40px}
+.limitReached .checkableListItem{opacity:.3}
+.limitReached .selectedCheckable{opacity:1}
+.fbProfileBrowserListContainer .expandedList li:first-child{border-top:1px solid #e9e9e9}
+.fbProfileBrowserSummaryBox{border-bottom:1px solid #ccc}
+.hideSummary .fbProfileBrowserSummaryBox{display:none}
+.fbProfileBrowserTypeahead .nameTypeaheadThrobber{display:none;position:absolute;right:6px;top:5px}
+div.fbProfileBrowserTypeahead .clear,.fbProfileBrowser .loading .nameTypeaheadThrobber{display:block}
+.fbProfileBrowser .loading .clear{display:none}
+.fbProfileBrowserViewButtons{white-space:nowrap}
+.fbProfileBrowserViewButtons .profileBrowserViewButton{margin-left:0}
+.fbProfileBrowserViewButtons .normal{border-right:0}
+.fbProfileBrowserViewButtons .profileBrowserViewButton .customimg{margin-top:2px}
+
+#bootloader_htHvq { height: 42px; }

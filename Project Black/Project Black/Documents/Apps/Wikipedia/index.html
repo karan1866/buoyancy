@@ -1,0 +1,69 @@
+﻿<html>
+<head>
+    <title>Wikipedia App</title>
+
+    <script type="text/javascript">
+        var url = "";
+
+        function input(content) {
+            document.getElementById("frame").src = content;
+            document.title = "Wikipedia App";
+        }
+
+        function load() {
+            var html=document.getElementById("frame").contentWindow.document.body.innerHTML;
+
+            while (html.replace("<", "&lt;").replace(">", "&gt;").replace(" ", "&nbsp;") != html) {
+                html=html.replace("<", "&lt;").replace(">", "&gt;").replace(" ", "&nbsp;");
+            }
+
+            document.getElementById("codeDisplay").innerHTML = html;
+            src();
+        }
+
+        function src() {
+            document.getElementById("src").innerHTML = document.getElementById('frame').src;
+        }
+
+        function code(button) {
+            if (button.value == "Show") {
+                button.value = "Hide";
+                document.getElementById("code").style.visibility = "visible";
+            } else {
+                button.value = "Show";
+                document.getElementById("code").style.visibility = "hidden";
+            }
+        }
+    </script>
+
+</head>
+<body style="margin: 0px; padding: 0px;">
+    <table height="100%" width="100%">
+        <tr height="25">
+            <td id="src">
+            </td>
+        </tr>
+        </tr>
+        <tr>
+            <td width="60%">
+                <iframe id="frame" height="100%" width="100%" style="border: solid 1px #333333;"
+                    onload="load()" onunload="alert('')"></iframe>
+            </td>
+            <td width="40%">
+                <textarea id="input" style="height: 100%; width: 100%" onkeyup="input(this.value)"></textarea>
+            </td>
+        </tr>
+    </table>
+    <div id="code" style="position: absolute; height: 100%; width: 100%; top: 0px; left: 0px;
+        visibility: hidden;">
+        <div style="bottom: 20px; top: 20px; left: 20px; right: 20px; border-radius: 10px;
+            position: absolute; background: #000000; opacity: 0.7">
+        </div>
+        <div id="codeDisplay" style=" color:#ffffff;bottom: 30px; top: 30px; left: 30px; right: 30px; position: absolute;
+            overflow: auto;">
+        </div>
+    </div>
+    <input style="position: absolute; right: 0px; top: 0px;" type="button" value="Show"
+        onclick="code(this)" />
+</body>
+</html>

@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" 
+			   xmlns:s="library://ns.adobe.com/flex/spark" 
+			   xmlns:mx="library://ns.adobe.com/flex/mx" creationComplete="appInit()">
+	<fx:Script>
+		<![CDATA[
+			import flash.sampler.NewObjectSample;
+			
+			import flashx.textLayout.formats.Float;
+			
+			import mx.controls.Alert;
+			import mx.messaging.Channel;
+			import mx.messaging.channels.StreamingAMFChannel;
+			
+			import org.hamcrest.mxml.collection.InArray;
+			import org.osmf.utils.URL;
+
+			//Declarations ------------------------------------------------------------------------------------------
+			
+			protected var readLocaly:Boolean=false;
+			
+			protected var readSelf:Boolean=false;
+			
+			protected var proxyArray:Array= new Array("http://speechdomain.byethost22.com/appText.php?url=",
+				"http://k13.freehostia.com/getText.php?url=",
+				"http://spdom.byethost12.com/getContent.php?url=",
+				"http://zinga.byethost12.com/giveZinga.php?url=",
+				"http://domsp.byethost32.com/domsp.php?url=",
+				"http://text2speech.byethost22.com/getSpeech.php?url=",
+				"http://felix.byethost2.com/getFelix.php?url=");
+			protected var proxyIndex:int=0;
+			
+			protected var proxyArray2:Array= new Array("http://speechdomain.byethost22.com/appText.php?url=","http://text2speech.byethost22.com/getSpeech.php?url="
+				,"http://felix.byethost2.com/getFelix.php?url=");
+			protected var proxyIndex2:int=0;
+			
+			protected var localSound:Array = new Array;
+			protected var localString:Array = new Array;
+			
+			protected var position:Number;				//Position of the paused sound
+			
+			protected const translate:String="translate.google.com/translate_tts?tl=en&q=";				//If a string is paseed of less than a 100 characters then the url returns a mp3
+			
+			protected var timer:uint;				//comment: setTimeout() id
+			
+			protected var LoadProgress:int=0;				//Loading progress of oversized sentences
+			
+			protected var paused:Boolean;				//paused state boolean of the reader
+			
+			//comment: read() return parameters
+			protected var read_callbackFunction:String;
+			
+			//comment: loadURL() return parameters
+			protected var loadURL_callbackFunction:String;
+			
+			//comment: notify() return parameters
+			protected var notify_callbackFunction:String;
+			
+			protected var keyMap:Object=new Object();
+			
+			//Session variables
+			protected var OverSizedArray:Array;
+			protected var OverSizedIndex:Array;
+			
+			protected var reading:Boolean;				//is reading?
+			
+			protected var ReaderSound:Sound;				//Sound for reading
+			
+			protected var readerChannel:SoundChannel;				//Sound channel for reading text
+			
+			protected var loader:URLLoader= new URLLoader;				//URL loader
+			protected var PlayingItem:int;				//Item currently being played
+			
+			protected const Breaks:String=";,!?";
+			
+			protected const keyArray:Array= new Array(
+				"/sys/beep.mp3",
+				"/sys/click.mp3",
+				"/tts/err/error.mp3",
+				"/tts/err/ttserror.mp3",
+				"/tts/apps/blank.mp3",
+				"/tts/apps/city.mp3",
+				"/tts/apps/crfr.mp3",
+				"/tts/apps/crnum.mp3",
+				"/tts/apps/crto.mp3",
+				"/tts/apps/math.mp3",
+				"/tts/apps/nocon.mp3",
+				"/tts/apps/nodef.mp3",
+				"/tts/apps/noent.mp3",
+				"/tts/apps/noexp.mp3",
+				"/tts/apps/nvalid.mp3",
+				"/tts/apps/rsum.mp3",
+				"/tts/apps/spell.mp3",
+				"/tts/apps/story.mp3",
+				"/tts/apps/term.mp3",
+				"/tts/key/backb.mp3",
+				"/tts/key/bbc.mp3",
+				"/tts/key/calc.mp3",
+				"/tts/key/curr.mp3",
+				"/tts/key/def.mp3",
+				"/tts/key/disab.mp3",
+				"/tts/key/disae.mp3",
+				"/tts/key/disal.mp3",
+				"/tts/key/disar.mp3",
+				"/tts/key/disas.mp3",
+				"/tts/key/exit.mp3",
+				"/tts/key/exitb.mp3",
+				"/tts/key/forw.mp3",
+				"/tts/key/readb.mp3",
+				"/tts/key/rew.mp3",
+				"/tts/key/rstr.mp3",
+				"/tts/key/rsum.mp3",
+				"/tts/key/spel.mp3",
+				"/tts/key/stok.mp3",
+				"/tts/key/subb.mp3",
+				"/tts/key/time.mp3",
+				"/tts/key/wiki.mp3",
+				"/tts/key/wthr.mp3",
+				"/tts/vkey/0.mp3",
+				"/tts/vkey/1.mp3",
+				"/tts/vkey/2.mp3",
+				"/tts/vkey/3.mp3",
+				"/tts/vkey/4.mp3",
+				"/tts/vkey/5.mp3",
+				"/tts/vkey/6.mp3",
+				"/tts/vkey/7.mp3",
+				"/tts/vkey/8.mp3",
+				"/tts/vkey/9.mp3",
+				"/tts/vkey/a.mp3",
+				"/tts/vkey/b.mp3",
+				"/tts/vkey/by.mp3",
+				"/tts/vkey/c.mp3",
+				"/tts/vkey/d.mp3",
+				"/tts/vkey/dp.mp3",
+				"/tts/vkey/e.mp3",
+				"/tts/vkey/f.mp3",
+				"/tts/vkey/g.mp3",
+				"/tts/vkey/h.mp3",
+				"/tts/vkey/i.mp3",
+				"/tts/vkey/in.mp3",
+				"/tts/vkey/j.mp3",
+				"/tts/vkey/k.mp3",
+				"/tts/vkey/l.mp3",
+				"/tts/vkey/m.mp3",
+				"/tts/vkey/mi.mp3",
+				"/tts/vkey/n.mp3",
+				"/tts/vkey/o.mp3",
+				"/tts/vkey/p.mp3",
+				"/tts/vkey/pl.mp3",
+				"/tts/vkey/po.mp3",
+				"/tts/vkey/q.mp3",
+				"/tts/vkey/r.mp3",
+				"/tts/vkey/s.mp3",
+				"/tts/vkey/sp.mp3",
+				"/tts/vkey/sr.mp3",
+				"/tts/vkey/t.mp3",
+				"/tts/vkey/u.mp3",
+				"/tts/vkey/v.mp3",
+				"/tts/vkey/w.mp3",
+				"/tts/vkey/x.mp3",
+				"/tts/vkey/y.mp3",
+				"/tts/vkey/z.mp3"
+			);
+			
+			protected const Abbreviations:Array= new Array(
+				"Inc.",
+				"Dr.",
+				"Mr.",
+				"Ms.",
+				"Mrs."
+			);
+			
+			protected const WordCompressions:Array= new Array(
+				"see", "sea",
+				"bee", "and",
+				"bread", "you're",
+				"are", "you",
+				"tee", "tea",
+				"jay", "pea",
+				"pee", "we",
+				"why", "one",
+				"two", "three",
+				"four", "five",
+				"six", "seven",
+				"eight", "nine",
+				"ten", "eleven",
+				"twelve", "thirteen",
+				"fourteen", "fifteen",
+				"sixteen", "seventeen",
+				"eighteen", "nineteen",
+				"twenty", "thirty",
+				"fifty", "sixty",
+				"seventy", "eighty",
+				"ninety", "first",
+				"second", "third",
+				"fourth", "fifth",
+				"sixth", "sevnth",
+				"eighth", "nineth",
+				"tenth", "eleventh",
+				"twelfth", "thirteenth",
+				"fourteenth", "fifteenth",
+				"sixteenth", "seventeenth",
+				"eighteenth", "nineteenth",
+				"twentieth", "thirtieth",
+				"fortieth", "fiftieth",
+				"sixtieth", "seventieth",
+				"eightieth", "ninetieth"
+			);
+			
+			protected const WordCompressionsR:Array= new Array(
+				"c", "c",
+				"b", "&",
+				"bred", "u r",
+				"r", "u",
+				"t", "t",
+				"j", "p",
+				"p", "v",
+				"y", "1",
+				"2", "3",
+				"4", "5",
+				"6", "7",
+				"8", "9",
+				"10", "11",
+				"12", "13",
+				"14", "15",
+				"16", "17",
+				"18", "19",
+				"20", "30",
+				"40", "50",
+				"60", "70",
+				"80", "90",
+				"1st", "2nd",
+				"3rd", "4th",
+				"5th", "6th",
+				"7th", "8th",
+				"9th", "10th",
+				"11th", "12th",
+				"13th", "14th",
+				"15th", "16th",
+				"17th", "18th",
+				"19th", "20th",
+				"30th", "40th",
+				"50th", "60th",
+				"70th", "80th",
+				"90th"
+			);
+			
+			protected var loadingComplete:Boolean=false;
+			
+			protected var soundQueue:Array;
+			//Declarations ------------------------------------------------------------------------------------------
+		
+			
+			
+			public function readLocal(str:Object,callBackFunction:String=""):void
+			{
+				resetReader();
+				
+				
+				if(keyMap[str] is Sound)
+				{
+					read_callbackFunction=callBackFunction;
+						
+					readSelf=true;
+					
+					soundQueue= new Array("/apps/php/teamarea" + keyMap[str]);
+					
+					PlaybackComplete();
+					
+					return;
+				}
+				
+				
+				readLocaly=true;
+				readSelf=false;
+				read_callbackFunction=callBackFunction;
+				
+				if (str is String)
+				{
+					soundQueue=new Array(str.toString());
+					
+					PlaySound();
+				}
+				
+				if (str is Array)
+				{
+					var i:int;
+					for(i=0;i<str.length;i++)
+						soundQueue.push(str[i]);
+					
+					PlaySound();
+				}
+			}
+			
+			
+			public function setLocal(str:String="",d:String=""):void
+			{
+				if ((d!="" && str!=""))
+				{
+					localSound.push(d);
+					localString.push(str);
+				}
+			}
+			
+			//Application Initialization ----------------------------------------------------------------------------
+			protected function appInit():void
+			{
+				
+				loader.addEventListener(Event.COMPLETE,loader_Completed);
+				
+				loader.addEventListener(IOErrorEvent.IO_ERROR,loaderError);
+				loader.addEventListener(SecurityErrorEvent.SECURITY_ERROR,loaderError);
+				
+				ExternalInterface.addCallback("loadURL",loadURL);
+				ExternalInterface.addCallback("read",read);
+				ExternalInterface.addCallback("stop",stop);
+				ExternalInterface.addCallback("pause",pause);
+				ExternalInterface.addCallback("resume",resume);
+				ExternalInterface.addCallback("setLocalSound",setLocal);
+				ExternalInterface.addCallback("readLocal",readLocal);
+				ExternalInterface.addCallback("rewind",rewind);
+				ExternalInterface.addCallback("forward",forward);
+				ExternalInterface.addCallback("playLocal",playLocal);
+				
+				var i:int;
+				
+				var s2:Sound= new Sound();
+				s2.load(getRequest("/start.mp3",true));
+				var channel:SoundChannel= new SoundChannel;
+				channel=s2.play();
+				channel.addEventListener(Event.SOUND_COMPLETE,loadingIsComplete);
+				
+				for(i=0;i<keyArray.length;i++)
+				{
+					var s:Sound=new Sound();
+					////trace(keyArray[i]);
+					s.load(getRequest(keyArray[i],true))
+					s.addEventListener(Event.COMPLETE,initLoadProgress);
+					keyMap["/apps/php/teamarea" + keyArray[i]]=s;
+				}
+				//ExternalInterface.call("plugin.load");
+				
+				
+			}
+			
+			protected function resetReader():void
+			{
+				try {
+					readerChannel.stop();
+				}
+				catch (ex:Error){ }
+				readLocaly=false;
+				readSelf=false;
+				position=0;
+				paused=false;
+				clearTimeout(timer);
+				LoadProgress=0;
+				read_callbackFunction="";
+				//loadURL_callbackFunction="";
+				OverSizedIndex=new Array;
+				OverSizedArray=new Array;
+				ReaderSound=new Sound;
+				readerChannel=new SoundChannel;
+				PlayingItem=-1;
+				soundQueue=new Array;
+			}
+			//Application Initialization ----------------------------------------------------------------------------
+			
+			
+			
+			//Pause, play and stop----------------------------------------------------------------------------------------
+			public function stop():void
+			{
+				try {
+					if(readerChannel!=null)
+						readerChannel.stop();
+				} catch (ex:Error) {}
+			}
+			
+			public function pause():void
+			{
+				if (paused==false)
+				{
+					if(readerChannel!=null)
+					{	
+						try {
+							position=readerChannel.position;
+							readerChannel.stop();
+							paused=true;
+							flash.utils.clearTimeout(timer);
+						} catch (ex:Error) {}
+					}
+				}
+			}
+			
+			public function resume():void
+			{
+				if (paused==true)
+				{
+					if(readerChannel!=null)
+					{					
+						try {
+							if(PlayingItem==-1)
+								PlayingItem+=1;
+							if(soundQueue.length>0) {
+								if((soundQueue[PlayingItem] is Sound)==false)
+								{
+									ReaderSound=new Sound;
+									ReaderSound.load(getRequest(translate+escape(soundQueue[PlayingItem])));
+									readerChannel=ReaderSound.play();
+									paused=false;
+									readerChannel.addEventListener(Event.SOUND_COMPLETE,PlaybackComplete);
+								} else if (soundQueue[PlayingItem] is String){
+									timer=setTimeout(PlaybackComplete,soundQueue[PlayingItem].length-500,null);
+									readerChannel=soundQueue[PlayingItem].play(position,0,null);
+									paused=false;
+									readerChannel.removeEventListener(Event.SOUND_COMPLETE,PlaybackComplete);
+								}
+							}
+						} catch (ex:Error) {}
+					}
+				}
+			}
+			//Pause and play ----------------------------------------------------------------------------------------
+			
+			
+			
+			public function rewind():void
+			{
+				if(soundQueue.length>0)
+				{
+					if(PlayingItem!=-1)
+					{
+						var a:Boolean;
+						var i:int=0;
+						for(i=PlayingItem-1;i>=0;i--)
+						{
+							if(soundQueue[i] is int)
+							{
+								if(a==false)
+								{
+									a=true;
+								}
+								else
+								{
+									stop();
+									PlayingItem=i-1;
+									PlaybackComplete();
+									paused=false;
+									a=false;
+									break;
+								}
+							}
+						}
+						if(a==true)
+						{
+							PlayingItem=-1;
+						pause();
+							PlaybackComplete();
+						}
+					}
+				}
+			}
+			
+			public function forward():void
+			{
+				if(soundQueue.length>0)
+				{
+					if(PlayingItem!=soundQueue.length-1)
+					{
+						var i:int=0;
+						for(i=PlayingItem;i<soundQueue.length-1;i++)
+						{
+							if(soundQueue[PlayingItem]is int)
+							{
+								stop();
+								PlayingItem=i;
+								PlaybackComplete();
+								paused=false;
+								break;
+							}
+						}
+					}
+				}
+			}
+			
+			
+			protected var arrStr:Array;
+			
+			//Url Loading -------------------------------------------------------------------------------------------
+			protected function loader_Completed(event:Event=null):void
+			{
+				var content:String;
+				content= loader.data;
+				
+				if(loadURL_callbackFunction!="")
+				{
+					//if(loadURL_callbackFunction=="collect")
+					//{
+					//	var i:int;
+		
+						
+					//	var  x:Number=getTimer();
+							
+						
+						//var str:String = "This is a very long string and probably the most length of all string there can ever be. PLEASE DONOT CREATE SUCH STRINGS.";
+						
+						
+						//var apxElemSize:int = 1000;
+						//var DEPTH:int = int(Math.log(content.length/apxElemSize)*Math.LOG2E) + 1;
+						
+						//arrStr = splitString(content, 0, DEPTH);
+						
+						//////trace(content.length);
+						//////trace(DEPTH);
+						//////trace(arrStr.length);
+						
+						//for(i=0;i<1;i++) {
+							//////trace((arrStr[2] as String).split("\\x").join(""));
+							//setTimeout(function(a:String,b:int):void { ExternalInterface.call("collect",a,b);},1+i*2,(arrStr[2] as String).split("\\").join("\\\\"),i);
+							
+						//}
+						
+						//////trace(arrStr[2]);
+						
+						//setTimeout(function():void { ExternalInterface.call("wiki");	},10+arrStr.length*2);
+						
+						
+						//////trace(getTimer()-x);
+						//////trace(arrStr.length);
+						
+						
+						
+						try {
+							ExternalInterface.call(loadURL_callbackFunction,(content as String).split("\\").join("\\\\"));		
+						} catch	(ex:Error)	{  }
+				}
+			}
+			
+			
+			private function splitString(str:String, curDepth:int, DEPTH:int):Array
+			{
+				var strLen:int = str.length;
+				var strPart1:String = str.substring(0, int(strLen/2));
+				var strPart2:String = str.substring(int(strLen/2), strLen);
+				
+				if(curDepth<DEPTH-1)
+					return splitString(strPart1, curDepth+1, DEPTH).concat(splitString(strPart2, curDepth+1, DEPTH));
+				else
+					return [strPart1, strPart2];
+			}
+			
+			
+			private function loaderError(e:Event=null):void
+			{
+				if(proxy2(null)==true) {
+				if(loadURL_callbackFunction=="wiki")
+				{
+					try {	ExternalInterface.call("wikierror");		} catch	(ex:Error)	{  }
+				}
+				else {
+					loadError(null);
+				}
+				}
+				else
+				{
+					loader.load(getRequest2(loadURLStr));
+					
+				}
+			}
+			
+			protected var loadURLStr:String;
+			
+			public function loadURL(c:String,callBackFunction:String=""):void
+			{
+				loadURL_callbackFunction=callBackFunction;
+				loader.load(getRequest2(c));
+				loadURLStr=c;
+			}
+			//URL Loading -------------------------------------------------------------------------------------------
+			
+			
+			
+			//External Interface Read -------------------------------------------------------------------------------
+			public function read(str:Object,callBackFunction:String=""):void
+			{	
+				
+				
+				resetReader();
+				read_callbackFunction=callBackFunction;
+				
+				
+				
+				var i:Number;
+				OverSizedIndex=new Array;
+				OverSizedArray=new Array;
+				
+				if ((str is String && str!="")==true)
+				{
+					var index:int=localString.indexOf(str.toString());
+					if(index==-1){
+						soundQueue=processContent(str.toString());
+					}
+					else
+						soundQueue.push(-1 - index);
+					
+					StartLoading();
+				}
+				
+				if (str is Array)
+				{
+					for(i=0;i<str.length;i++)
+					{
+						
+						if(str[i] is String)
+						{
+							if(str[i]!="") {
+								var index:int=localString.indexOf(str.toString());
+								if(index==-1){
+									soundQueue=soundQueue.concat(processContent(str[i].toString()));
+								}
+								else
+									soundQueue.push(-1 - index);
+								
+							}
+						}
+						else if (str[i] is int)
+						{
+							soundQueue.push(str[i]);
+						}
+					}
+					
+				}
+				
+			}
+			//External Interface Read -------------------------------------------------------------------------------
+			
+			
+			
+			//Sound Loading -----------------------------------------------------------------------------------------------
+			protected function StartLoading():void
+			{
+
+				var i:int;
+				
+				if (OverSizedIndex.length!=0)
+				{
+					for(i=0;i<OverSizedIndex.length;i++)
+					{
+						
+						soundQueue[OverSizedIndex[i]].addEventListener(Event.COMPLETE,LoadingProgress);
+						
+						var s:Sound=new Sound(getRequest(translate + escape(OverSizedArray[i])));
+						s.addEventListener(IOErrorEvent.IO_ERROR,ttsError);
+						
+						soundQueue[OverSizedIndex[i]]=s;
+						
+					}
+				}
+				else
+				{
+					PlaySound();
+				}
+				
+			}
+			
+			protected function LoadingProgress(e:Event):void
+			{
+				LoadProgress+=1;
+				if(OverSizedIndex.length==LoadProgress)
+				{
+					PlaySound();
+				}
+			}
+			//Sound Loading -----------------------------------------------------------------------------------------------
+			
+			
+			
+			//ProcessContent : Divide string into array -------------------------------------------------------------
+			protected function processContent(content:String):Array
+			{
+				
+				content=compressAbbreviations(content);
+				content=compress(content);
+				
+				var sentences:Array= new Array;
+				
+				var sentence:String="";
+				var i:int;
+				for(i=0;i<content.length;i++)
+				{
+					if(content.charAt(i)+content.charAt(i+1)==". " || content.charAt(i)=="," || content.charAt(i)=="?" || content.charAt(i)==";")
+					{
+						sentences.push(sentence);
+						sentence="";
+					}
+					else
+					{
+						sentence+=content.charAt(i);
+						
+						if(sentence.length==100)
+						{
+							sentence=compress(sentence);
+						}
+						
+						if(sentence.length==100)
+						{
+							
+							if ((content.charAt(i)==" " || i==content.length-1 || (Breaks.search(content.charAt(i))== 0) || content.charAt(i+1)==" " || (content.charAt(i) + content.charAt(i+1)==". "))==true)
+							{
+								sentences.push(sentence);
+								sentence="";
+							} else {
+								
+								var a:int;
+								
+								for(a=99;a>=0;a--)
+								{
+									var b:String=sentence.charAt(a);
+									var c:String=b;
+									if (sentence.charAt(a)==" ")
+									{
+										OverSizedArray.push(sentence.slice(0,a));
+										sentences.push(new Sound);
+										sentence=sentence.slice(a+1,sentence.length);
+										a=-1;
+									}
+								}
+								
+								//comment: (soundQueue.length + sentences.length -2) is the first part of the oversized sentence
+								//it is same as PlayingItem
+								try {
+									OverSizedIndex.push(soundQueue.length + sentences.length -1);
+								}
+								catch (ex:Error)
+								{
+									OverSizedIndex.push(0 + sentences.length -1);
+								}
+							}
+						}
+					}
+				}
+				if (sentence!="")
+					sentences.push(sentence);
+				
+				return sentences;
+			}
+			//ProcessContent : Divide string into array -------------------------------------------------------------
+			
+			
+			public function playLocal(url:String):void {
+				
+				if(keyMap["/apps/php/teamarea" + url] is Sound)
+				{
+					keyMap["/apps/php/teamarea" + url].play();
+					
+					return;
+				}
+				
+				var s:Sound= new Sound;
+				s.addEventListener(IOErrorEvent.IO_ERROR,function () :void {});
+				s.load(new URLRequest(url));
+				s.play();
+			}
+			
+			
+			//Convert Abreviations because some abreviations have "." after them which could cause error ------------
+			protected function compressAbbreviations(str:String):String
+			{
+				
+				//str=str.toLowerCase();
+				var i:int;
+				for(i=0;i<Abbreviations.length;i++)
+				{
+					
+					str=str.toLowerCase().replace(Abbreviations[i],Abbreviations[i].toString().split(".")[0]);
+				}
+				return str;
+			}
+			//Convert Abreviations because some abreviations have "." after them which could cause error ------------
+			
+			
+			
+			//Compressions : Compress string as much as possible compression array is specified in the declarations -
+			protected function compress(str:String):String
+			{	
+				var x:int;
+				//str=str.toLowerCase();
+				for(x=0;x<WordCompressions.length;x++)				//Loop compression strings
+				{
+					
+					str=str.toLowerCase().replace(" " + WordCompressions[x] + " ", " " + WordCompressionsR[x] + " ");
+					
+					if(x==0)
+					{
+						str=str.toLowerCase().replace(WordCompressions[x] + " ", WordCompressionsR[x] + " ");
+					}
+					
+					if(x==WordCompressions.length-1)
+					{
+						str=str.toLowerCase().replace(" " + WordCompressions[x]," " + WordCompressionsR[x]);
+					}
+				}
+				
+				return str;
+			}
+			//Compressions : Compress string as much as possible compression array is specified in the declarations -
+			
+			
+			
+			//Start processing sound : If str is specified that means there is no array specified and only a sentence has to be read
+			protected function PlaySound():void
+			{
+				PlaybackComplete();
+			}
+			//Start processing sound : If str is specified that means there is no array specified and only a sentence has to be read
+			
+			
+			
+			//Playback completed ------------------------------------------------------------------------------------
+			protected function PlaybackComplete(event:Event=null):void
+			{ 
+				if(soundQueue!=null)
+				{
+					if(PlayingItem!=soundQueue.length-1)
+					{
+						PlayingItem+=1;
+						
+						if(soundQueue[PlayingItem] == "")
+						{
+							return;
+						}
+						
+						if(readSelf==true)
+						{
+							readerChannel=soundQueue[0].play();
+							readerChannel.addEventListener(Event.SOUND_COMPLETE,PlaybackComplete);
+							return;
+						}
+						
+						
+						if(soundQueue[PlayingItem] is String)
+						{
+							
+							if(readLocaly==true)
+							{
+								ReaderSound=new Sound;
+								ReaderSound.addEventListener(IOErrorEvent.IO_ERROR,ttsError);
+								ReaderSound.load(getRequest(soundQueue[PlayingItem],true));
+								readerChannel=ReaderSound.play();
+								readerChannel.addEventListener(Event.SOUND_COMPLETE,PlaybackComplete);
+								return;
+							}
+							
+							ReaderSound=new Sound;
+							ReaderSound.addEventListener(IOErrorEvent.IO_ERROR,ttsError);
+							
+							
+							
+							ReaderSound.load(getRequest(translate+escape(soundQueue[PlayingItem])));
+							
+							ReaderSound.addEventListener(Event.COMPLETE,proxy);
+							readerChannel=ReaderSound.play();
+							
+							readerChannel.addEventListener(Event.SOUND_COMPLETE,PlaybackComplete);
+							
+						}
+						else if (soundQueue[PlayingItem] is Sound)
+						{
+							timer=setTimeout(PlaybackComplete,soundQueue[PlayingItem].length-500,null);
+							readerChannel=soundQueue[PlayingItem].play();
+							readerChannel.removeEventListener(Event.SOUND_COMPLETE,PlaybackComplete);
+						}
+						else if (soundQueue[PlayingItem] is int)
+						{
+							if (soundQueue[PlayingItem]>=0) {
+								timer=setTimeout(PlaybackComplete,soundQueue[PlayingItem]);
+								return;
+							}
+							
+							ReaderSound=new Sound;
+							ReaderSound.addEventListener(IOErrorEvent.IO_ERROR,ttsError);
+							ReaderSound.load(getRequest(localSound[soundQueue[PlayingItem]+1],true));
+							readerChannel=ReaderSound.play();
+							readerChannel.addEventListener(Event.SOUND_COMPLETE,PlaybackComplete);
+						}
+						
+					} else	{		//call "read_CallbackFunction"
+						if(read_callbackFunction!="") {
+								ExternalInterface.call(read_callbackFunction);
+						}}
+				}
+			}
+			//Playback completed ------------------------------------------------------------------------------------
+			
+			
+			
+			//Load Error --------------------------------------------------------------------------------------------
+			public function loadError(e:Event):void
+			{
+					try { 
+						ExternalInterface.call("neterror","/apps/php/teamarea/tts/err/error.mp3");
+					} catch (er:Error) {};
+			}
+				
+			public function ttsError(e:Event):void
+			{
+				if(proxy(null)==true)
+				{
+				try {
+					ExternalInterface.call("neterror","/apps/php/teamarea/tts/err/ttserror.mp3");
+				} catch (er:Error) {};
+				}
+			}
+			//Load Error --------------------------------------------------------------------------------------------
+			
+			
+			
+			//Generate URLRequest
+			private function getRequest(a:String, local:Boolean=false):URLRequest
+			{
+				if(local==true)
+				{
+					return new URLRequest("/apps/php/teamarea" + a);
+				}
+				
+				var req:URLRequest = new URLRequest(proxyArray[proxyIndex] + escape(a));
+				
+				//req.method=URLRequestMethod.GET;
+				
+				//var vars:URLVariables= new URLVariables;
+				//vars.url = a;
+				//req.data = vars;
+				return req;
+				
+				//return new URLRequest(url);
+			}
+			
+			private function getRequest2(a:String, local:Boolean=false):URLRequest
+			{
+				if(local==true)
+				{
+					return new URLRequest( "/apps/php/teamarea" + a);
+				}
+				
+				var req:URLRequest = new URLRequest(proxyArray2[proxyIndex2] + escape(a));
+
+				return req;
+				
+			}
+			
+			protected function proxy(e:Event):Boolean {
+				if(ReaderSound.bytesTotal==0)
+				{
+					if(proxyIndex+1==proxyArray.length)
+					{
+						return true;
+					}
+					else
+					{
+						proxyIndex+=1;
+						this.PlayingItem-=1;
+						this.PlaybackComplete();	
+					}
+					
+				}
+				return false;
+			}
+			
+			protected function proxy2(e:Event):Boolean {
+				if(proxyIndex2+1==proxyArray2.length)
+				{
+						return true;
+				}
+				else
+				{
+					proxyIndex2+=1;	
+				}
+					
+				
+				return false;
+			}
+			//Generate URLRequest
+			
+			protected function loadingIsComplete(e:Event=null):void
+			{
+				if(loadingComplete==false)
+				{
+					loadingComplete=true;
+				}
+				else
+				{
+					ExternalInterface.call("plugin.load");
+				}
+			}
+			
+			protected function initLoadProgress(e:Event=null):void
+			{
+				LoadProgress+=1;
+				//trace(LoadProgress);
+				if(LoadProgress==keyArray.length) {
+					loadingIsComplete();
+				}
+			}
+			
+			
+		]]>
+	</fx:Script>
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+</s:Application>

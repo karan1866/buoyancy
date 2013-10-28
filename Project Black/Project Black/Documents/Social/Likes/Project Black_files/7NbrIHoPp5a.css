@@ -1,0 +1,12 @@
+/*1301359968,176833978*/
+
+.navIdentity{min-height:38px;border-bottom:1px solid #e0e0e0;margin:5px;padding-bottom:5px}
+#navAccount ul .navIdentityPic{float:left}
+#navAccount ul .navIdentityPic img{width:28px}
+#navAccount ul .navIdentityPic a{padding:5px}
+#navAccount ul .navIdentityPic a:hover{padding:4px 5px 4px 5px}
+#navAccount ul .navIdentitySub input{font-size:9px}
+#navAccount ul .navIdentityLinks{margin:5px;float:left}
+.fbPhotoPublicLink{text-align:center}
+
+#bootloader_lB1Lf { height: 42px; }

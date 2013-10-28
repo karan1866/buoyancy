@@ -1,0 +1,111 @@
+/*1302564657,176833974*/
+
+#jewelCase .jewel{float:left;margin-right:-1px;position:relative}
+.jewelCount{background-color:#00376a;-webkit-border-radius:2px;top:-1px;color:#fff;display:none;font-size:9px;font-weight:bold;padding-bottom:1px;position:absolute;right:-1px;z-index:101}
+.jewelCount span{background-color:#f03d25;border:1px solid #dd3822;-webkit-border-radius:2px;border-top:0;display:block;padding:1px 1px 0}
+.jewelNew .jewelCount{display:block}
+.openToggler .jewelCount{right:-2px;top:-2px}
+.jewelToggler{display:block;height:31px;margin:0 1px;text-decoration:none;width:24px}
+.jewelToggler:active,.jewelToggler:focus,.jewelToggler:hover{outline:none;background-color:#4b67a1;text-decoration:none}
+.openToggler .jewelToggler{background-color:#fff !important;border:1px solid #333;border-bottom:0;height:30px;margin:0;position:relative;z-index:4}
+#jewelMail{background-image:url(https://s-static.ak.facebook.com/rsrc.php/v1/zx/r/Pvubnmvx_0f.png);background-repeat:no-repeat;background-position:-50px -95px}
+#jewelMail:hover,#jewelMail:focus,#jewelMail:active{background-image:url(https://s-static.ak.facebook.com/rsrc.php/v1/zx/r/Pvubnmvx_0f.png);background-repeat:no-repeat;background-position:0 -127px}
+.jewelNew #jewelMail{background-image:url(https://s-static.ak.facebook.com/rsrc.php/v1/zx/r/Pvubnmvx_0f.png);background-repeat:no-repeat;background-position:-75px -95px}
+.openToggler #jewelMail{background-image:url(https://s-static.ak.facebook.com/rsrc.php/v1/zx/r/Pvubnmvx_0f.png) !important;background-repeat:no-repeat !important;background-position:-50px -127px !important}
+#jewelRequest{background-image:url(https://s-static.ak.facebook.com/rsrc.php/v1/zx/r/Pvubnmvx_0f.png);background-repeat:no-repeat;background-position:0 -63px}
+#jewelRequest:hover,#jewelRequest:focus,#jewelRequest:active{background-image:url(https://s-static.ak.facebook.com/rsrc.php/v1/zx/r/Pvubnmvx_0f.png);background-repeat:no-repeat;background-position:-50px -63px}
+#jewelRequestsContent .jewelRequest .jewelRequestContent{padding-top:5px}
+#jewelRequestsContent .title{font-size:11px}
+#jewelRequestsContent .requestLabel{line-height:12px}
+.jewelNew #jewelRequest{background-image:url(https://s-static.ak.facebook.com/rsrc.php/v1/zx/r/Pvubnmvx_0f.png);background-repeat:no-repeat;background-position:-25px -63px}
+.openToggler #jewelRequest{background-image:url(https://s-static.ak.facebook.com/rsrc.php/v1/zx/r/Pvubnmvx_0f.png) !important;background-repeat:no-repeat !important;background-position:-25px -127px !important}
+.noMessages #notificationsWrapper{margin-left:25px}
+#jewelNotif{background-image:url(https://s-static.ak.facebook.com/rsrc.php/v1/zx/r/Pvubnmvx_0f.png);background-repeat:no-repeat;background-position:-75px -63px}
+#jewelNotif:hover,#jewelNotif:focus,#jewelNotif:active{background-image:url(https://s-static.ak.facebook.com/rsrc.php/v1/zx/r/Pvubnmvx_0f.png);background-repeat:no-repeat;background-position:-25px -95px}
+.jewelNew #jewelNotif{background-image:url(https://s-static.ak.facebook.com/rsrc.php/v1/zx/r/Pvubnmvx_0f.png);background-repeat:no-repeat;background-position:0 -95px}
+.openToggler #jewelNotif{background-image:url(https://s-static.ak.facebook.com/rsrc.php/v1/zx/r/Pvubnmvx_0f.png) !important;background-repeat:no-repeat !important;background-position:-75px -127px !important}
+#jewelCase .jewelBox{background-color:#fff;border:1px solid #333;border-bottom:2px solid #293e6a;left:0;overflow:visible;position:absolute;top:30px;width:330px;z-index:3}
+#jewelBoxRequest li,#jewelCase .empty{padding:4px 8px}
+.jewelBox ul{padding:4px 0}
+#jewelCase .jewelHeader{margin:7px 8px 0}
+#jewelCase .jewelHeader a{position:relative;top:2px}
+#jewelCase .jewelItemNew{background:#eff1f7}
+#jewelCase .jewelItemResponded{background:#fff9d7}
+#jewelCase .jewelLoading{display:block;margin:5px auto}
+.jewelBox .profileImage{height:50px;width:50px}
+.jewelBox .messageRowExternalPic .profileImage{background-color:#e6e6e6;height:16px;width:16px;padding:17px}
+.jewelBox .metadata{padding-top:3px}
+#jewelCase .jewelFooter a{background-color:#f7f7f7;border-top:1px solid #e0e0e0;display:block;font-weight:bold;padding:8px;text-align:center}
+#jewelCase .jewelFooter a:hover,#jewelCase .jewelFooter a:active,#jewelCase .jewelFooter a:focus{background-color:#6d84b4;border-top:1px solid #3b5998;color:#fff;outline:none;text-decoration:none}
+#jewelCase .jewelFooter .seeMoreCount{display:none;font-weight:bold;padding:2px 0 0}
+#jewelCase .jewelFooter a:hover .seeMoreCount,#jewelCase .jewelFooter a:active .seeMoreCount,#jewelCase .jewelFooter a:focus .seeMoreCount{color:#e7e7e7}
+#requestsWrapper .jewelFooter .seeMoreCount,#jewelCase .jewelUnread .jewelFooter .seeMoreCount{display:block}
+#jewelBoxNotif li a{color:#333;display:block;padding:4px 8px;text-decoration:none}
+#jewelCase .jewelHighlightItem li a:hover,#jewelCase .jewelHighlightItem li a:active,#jewelCase .jewelHighlightItem li a:focus{background-color:#6d84b4 !important;border-bottom:1px solid #3b5998;border-top:1px solid #3b5998;outline:none;padding-top:3px;padding-bottom:3px;text-decoration:none}
+#jewelBoxNotif.jewelHighlightItem #presence_notifications_loading.selected{background-color:#fff !important;border:none;cursor:auto;padding:4px 8px}
+#jewelCase .jewelHighlightItem a:hover span,#jewelCase .jewelHighlightItem a:active span,#jewelCase .jewelHighlightItem a:focus span,#jewelCase .jewelHighlightItem a:hover div,#jewelCase .jewelHighlightItem a:active div,#jewelCase .jewelHighlightItem a:focus div,#jewelCase .jewelHighlightItem li.selected a,#jewelCase .jewelHighlightItem li.selected .timestamp,#jewelBoxNotif a:hover .blueName{color:#fff}
+#jewelCase .jewelHighlightItem li{cursor:pointer;border-top:1px solid #e6e6e6}
+#jewelCase .jewelHighlightItem li:first-child{border-top:none}
+#jewelBoxNotif .staticAppIcon{background-position:right;height:16px;width:16px}
+#jewelBoxNotif .selected .staticAppIcon{background-position:left}
+#jewelBoxNotif .blueName{color:#3b5998;font-weight:bold}
+#jewelCase .desktopNotification{width:280px;overflow:hidden}
+#pageHead{margin:0 auto;width:980px}
+.fbx #pageHead{margin:0;width:auto}
+#pageLogo{float:left;margin-left:-6px}
+#pageLogo a{background-image:url(https://s-static.ak.facebook.com/rsrc.php/v1/zx/r/Pvubnmvx_0f.png);background-repeat:no-repeat;background-position:0 -32px;background-color:#3b5998;display:block;height:31px;width:103px}
+#pageLogo a:hover,#pageLogo a:focus,#pageLogo a:active{background-image:url(https://s-static.ak.facebook.com/rsrc.php/v1/zx/r/Pvubnmvx_0f.png);background-repeat:no-repeat;background-position:0 0;background-color:#4b67a1;outline:none}
+#headNav{background-color:#627aad;border:1px solid #1d4088;border-bottom:0;height:30px;margin-left:180px}
+#pageNav li{float:left}
+#pageNav a{color:#fff;display:block;display:inline-block;font-weight:bold;height:22px;padding:8px 10px 0 10px;text-decoration:none}
+#pageNav a:hover,#pageNav a:focus,#pageNav a:active{outline:none;background-color:#6d86b7}
+#navAccount{position:relative}
+#navAccount.openToggler,.no_js #navAccount:hover{background-color:#fff;border:1px solid #333;border-bottom:0;margin:-1px -1px 0}
+#navAccount #navAccountLink{padding-right:16px;zoom:1}
+.openToggler #navAccountLink,.no_js #navAccount:hover #navAccountLink{background-color:#fff;color:#333;position:relative;z-index:2}
+.openToggler #navAccountLink:hover,.openToggler #navAccountLink:focus,.openToggler #navAccountLink:active,.no_js #navAccountLink:hover{background-color:#fff}
+#navAccountLink img{background-image:url(https://s-static.ak.facebook.com/rsrc.php/v1/zx/r/Pvubnmvx_0f.png);background-repeat:no-repeat;background-position:-31px -159px;height:4px;left:5px;position:relative;top:-2px;width:7px}
+.openToggler #navAccountLink .dropMenuDivide,.no_js #navAccount:hover #navAccountLink .dropMenuDivide{background:#e0e0e0}
+.openToggler #navAccountLink img,.no_js #navAccount:hover #navAccountLink img{background-image:url(https://s-static.ak.facebook.com/rsrc.php/v1/zx/r/Pvubnmvx_0f.png);background-repeat:no-repeat;background-position:-23px -159px}
+#navAccount ul{background:#fff;border:1px solid #333;border-bottom:2px solid #2d4486;display:none;margin-right:-1px;margin-top:-1px;min-width:200px;padding:10px 0 5px;position:absolute;right:0;top:100%;z-index:1}
+#navAccount.openToggler ul,.no_js #navAccount:hover ul{display:block}
+#navAccount ul .logoutButton{display:block}
+#navAccount .logoutButton:hover{text-decoration:none}
+#navAccount .logoutButton input{width:100%;text-align:left;outline:0}
+#navAccount ul a,#navAccount ul .logoutButton input{color:#3a579a;display:block;font-weight:normal;height:auto;padding:4px 10px 5px;white-space:nowrap}
+#navAccount ul a:hover,#navAccount ul a:focus,#navAccount ul a:active,#navAccount .logoutButton:hover input,#navAccount .logoutButton input:active,#navAccount .logoutButton input:focus{background:#6d84b4;border-bottom:1px solid #3b5998;border-top:1px solid #3b5998;color:#fff;padding:3px 10px 4px;text-decoration:none}
+#navAccount li{display:block;float:none}
+#navAccountInfo{border-bottom:1px solid #e0e0e0;min-height:55px;position:relative;margin:5px 4px;padding:0 6px 0 64px}
+ul #navAccountInfo a:hover,ul #navAccountInfo a:focus,ul #navAccountInfo a:active{background:none;border:none;color:#3b5998;padding:4px 10px 5px;text-decoration:underline}
+#navAccountInfo #navAccountPic{left:-5px;margin:0;position:absolute;top:-9px}
+#navAccountInfo #navAccountPic img{width:50px;height:50px}
+#navAccount #navAccountName{font-size:13px;font-weight:bold;margin:0;padding:0 !important}
+#navSearch{margin:4px 0 0 4px;width:350px}
+#navSearch .uiSearchInput{border:0}
+#navSearch .uiSearchInput input{width:315px}
+#navSearch .uiTypeahead,#navSearch .uiTypeahead .wrap{border-color:#3b5998;z-index:100}
+#pagelet_search_ads{margin-top:44px}
+.bing_narrow_right .hasRightCol div#contentArea{width:532px}
+.bing_narrow_right #rightCol{width:205px}
+.uiSearchInput{background:#fff;border:1px solid #899bc1;border-top-color:#6484b4;display:inline-block}
+.uiSearchInput span{border:0;border-top:1px solid #ededed;display:inline-block;padding:1px 0 2px;position:relative}
+.uiSearchInput input{border:0;border-right:1px solid #e5e5e5;margin:0 22px 0 5px;outline:none;padding:1px 5px 2px 0;width:190px}
+.uiSearchInput button{background-image:url(https://s-static.ak.facebook.com/rsrc.php/v1/zx/r/Pvubnmvx_0f.png);background-repeat:no-repeat;background-position:0 -159px;background-color:#fff;border:0;cursor:pointer;display:block;height:19px;padding:0;position:absolute;right:0;top:0;width:22px}
+.uiTypeaheadView .search ul{padding:0}
+.uiTypeaheadView .search li{min-height:50px;padding:2px 30px 2px 63px}
+.uiTypeaheadView .search li a{outline:none}
+.uiTypeaheadView .search li a:hover{text-decoration:none}
+.uiTypeaheadView .search img{background-color:#eceff5;display:block;height:50px;left:6px;position:absolute;width:50px}
+.uiTypeaheadView .search .text{color:#3b5998;font-weight:bold}
+.uiTypeaheadView .search .subtext{font-size:9px}
+.uiTypeaheadView .search .seeMore{color:#3b5998;font-size:11px;font-weight:bold;padding-bottom:0;padding-right:7px}
+.uiTypeaheadView .search .web{padding:2px 15px 2px 6px}
+.uiTypeaheadView .search .bucketed .question{min-height:17px;padding:3px 30px 3px 6px}
+.uiTypeaheadView .search .bucketed .question .text{display:inline}
+.uiTypeaheadView .search .bucketed .question .subtext{display:inline;margin-left:5px;white-space:nowrap}
+.uiTypeaheadView .search .header{background-color:#f2f2f2;border-top-color:#e2e2e2;margin-top:4px;min-height:10px;padding:2px 15px 2px 6px;border-bottom:none}
+.uiTypeaheadView .search li:first-child{border-top:none;margin-top:0}
+.uiTypeaheadView .search .header .text{color:#000}
+.uiTypeaheadView .search .selected.header .text{color:#000 !important}
+
+#bootloader_SS7Qn { height: 42px; }

@@ -1,0 +1,189 @@
+/*1302564660,176833974*/
+
+.interaction_form div.dialog_content{border-width:0}
+.interaction_dialog_body{border-bottom:1px solid #ccc}
+.interaction_form_body{padding:0;border-bottom:none}
+.interaction_form .underline{border-bottom:1px solid #edeff5;margin:0 10px}
+.interaction_form .minifeedwall .story{margin-top:0;margin-bottom:0}
+.interim_status{padding:15px 10px}
+.interaction_form .story_preview_nile{padding:10px 3px 6px 20px}
+.interaction_form .link_placeholder{color:#3b5998;display:inline;padding:0}
+.interaction_form .title .link_placeholder{font-weight:bold}
+.interaction_form .not_me_link{float:right;padding:2px 10px}
+.interaction_form .feed_dialog_disclaimer{padding:0 0 10px 10px;color:#808080;font-size:9px}
+.interaction_form .dialog_buttons{padding:10px;zoom:1}
+.interaction_form .connect_privacy_widget{display:inline-block}
+.interaction_form .dialog_buttons_msg{float:left;width:340px;text-align:left;padding-top:3px}
+.canvas_iframe_util{overflow:hidden;width:646px;height:800px}
+.frame_wide .canvas_iframe_util{width:760px}
+.frame_wide #fb_sell_profile{overflow:hidden;max-height:100px}
+.fbframe .canvas_rel_positioning{position:relative;overflow:hidden;zoom:1}
+#canvas_throbber{display:none;float:right;height:460px;width:760px;text-align:center}
+#canvas_throbber.async_saving{display:block}
+#canvas_throbber_text{margin-top:220px}
+.gifts_mall_breadcrumb .not_first{padding-left:15px;margin-left:8px;background:transparent url(https://s-static.ak.facebook.com/rsrc.php/v1/zx/r/kOcnWJZ-PWz.gif) no-repeat scroll center left}
+.gifts_mall .browser .canvas_iframe_util{height:285px;width:514px}
+.gifts_mall .browser .skus_holder img{height:50px;width:50px;padding:0 4px}
+.gifts_mall .browser .skus_holder{text-align:center;margin:10px auto 0}
+.gifts_mall .browser .UITabGrid_Cell .UITabGrid_Link{border-bottom:1px solid #e5e5e5;padding:10px 0 15px 0;margin:5px 5px 5px 5px}
+.gifts_mall .browser .UITabGrid_Cell .UITabGrid_Link:hover,.gifts_mall .browser .UITabGrid_Cell .UITabGrid_Link_Selected{border-bottom:1px solid #fff}
+.gifts_mall .browser .UITabGrid_Row_Last .UITabGrid_Cell .UITabGrid_Link{border-bottom:none}
+.giftshop #unavailable .message{padding:20px 0 20px 10px;font-weight:bold;color:#333}
+.giftshop #unavailable .message .title{font-size:18px}
+.giftshop #unavailable .message .explanation{padding-top:4px;font-size:14px}
+.giftshop_in_fbpage{padding:20px}
+#embedded_store #giftshop_tool_bar{margin:5px 4px 0 5px}
+#embedded_store #giftshop_tool_bar #top_tags_options{float:left}
+#embedded_store #giftshop_tool_bar #search_options{float:left;margin:0 2px 2px 7px;width:120px}
+#embedded_store .gift_caption .gift_title{display:none}
+#embedded_store .gift_outer_onmouseover .gift_caption .gift_title{display:block}
+#embedded_store .gift_outer_onmouseover .gift_caption .gift_price{display:none}
+#embedded_store .gift_caption,#embedded_store .gift_caption span{width:64px;margin-top:2px;margin-bottom:2px;text-align:center;color:#999;font-size:9px;font-weight:bold;height:22px}
+#embedded_store span.credits_rendered_with_symbol{background:transparent url(https://s-static.ak.facebook.com/rsrc.php/v1/zD/r/B8Uc1sqGK89.gif) no-repeat scroll left 1px}
+.giftshop h2{margin-bottom:5px}
+.giftshop h3{margin-bottom:8px}
+.giftshop .step{background-color:#f7f7f7;border:solid 1px #ccc;padding:10px;margin:0 0 10px 0}
+.giftshop .step .step_body{border-top:solid 1px #ccc;margin-top:10px;padding-top:10px}
+.giftshop .step .full_page_gifts_mall_wrapper{background-color:#fff}
+.giftshop .extra_text{width:770px;margin-bottom:16px;font-weight:normal;font-size:11px}
+.giftshop .extra_text strong{color:#008000}
+.giftshop .extra_text .banner_explanation{font-size:13px;font-weight:bold;margin-top:20px}
+.giftshop div.gift_assigner_step{position:relative}
+.giftshop .compose_header{margin-bottom:15px}
+.giftshop .compose_header .learn_more{font-size:11px;font-weight:normal}
+.giftshop input.continue{margin-right:20px}
+.giftshop #friend_selector{float:left;width:240px}
+#recipient_pic{background-repeat:no-repeat;float:left;margin:0 0 0 10px}
+.giftshop_in_fbpage #embedded_store{background-color:#fff}
+.giftshop_in_fbpage #embedded_store,.giftshop .full_page_gifts_mall_wrapper{width:514px;border:1px solid #ccc;padding:4px}
+.giftshop #gifts_full_page_breadcrumb{color:#666;font-weight:bold}
+.giftshop .gifts_full_page_breadcrumb_wrapper{padding-bottom:4px;border-bottom:1px solid #dfdfdf;margin-bottom:8px}
+#embedded_store #gifts_grid.gifts_loading{background:url(https://s-static.ak.facebook.com/rsrc.php/v1/z9/r/jKEcVPZFk-2.gif) no-repeat center center}
+#embedded_store #giftshop_search_option_input{border:1px solid #bdc7d8;width:auto}
+#embedded_store #giftshop_search_option_input.tokenizer{padding:0 0 0 3px}
+#embedded_store #giftshop_search_option_input.tokenizer .inline_placeholder{color:#777;display:block;float:left;padding:3px 0 0 2px}
+#embedded_store #giftshop_search_option_input.tokenizer .token span span span span{padding:0 3px 0 5px}
+#embedded_store #giftshop_search_option_input.tokenizer .tokenizer_stretcher{padding-top:6px}
+#embedded_store #store_footer{border-top:1px solid #d5d5df;padding:3px 0 0 0}
+#embedded_store #store_footer #giftstore_pager{float:right;padding:3px 3px 2px 0}
+#embedded_store #store_footer #giftstore_pager .UIPager_PageNum{color:#999;font-weight:bold}
+#embedded_store #store_footer #summary{color:#333;float:left;font-weight:normal;padding:3px 0 4px}
+#embedded_store .gift_outer_onmouseover{padding:3px;float:left;margin-left:3px;margin-top:4px;background:url(https://s-static.ak.facebook.com/rsrc.php/v1/zo/r/MvPLjKSvLin.jpg) no-repeat left top;cursor:pointer;cursor:hand}
+#embedded_store .gift_outer_onclick{padding:3px;float:left;margin-left:3px;margin-top:4px;background:url(https://s-static.ak.facebook.com/rsrc.php/v1/zo/r/ZERwAYKsGqj.jpg) no-repeat left top}
+.gift_inner{background-repeat:no-repeat;width:64px;height:64px}
+.giftshop textarea{height:74px;font-size:13px}
+.giftshop .privacy_options .privacy_option{margin-bottom:6px}
+.giftshop .privacy_options .privacy_option .short label{margin-left:2px;color:#000;font-weight:normal}
+.giftshop .privacy_options .privacy_option .description{margin:0 0 0 22px;color:#777}
+.giftshop .giftshop_footer{margin-top:10px}
+.creditsBalanceIcon{margin-bottom:-3px}
+.negativeBalance{color:#f03d25}
+.needsRepayment .getMore{display:none}
+.repay{display:none}
+.needsRepayment .repay{display:inline}
+.commerceMarketingBar .linkMargin{margin-left:2px}
+.typeahead_list{background:transparent;border:1px solid #bdc7d8;border-top:none;font-size:11px;margin-top:-1px;overflow:auto;position:absolute;text-align:left;z-index:97}
+.generic_dialog .typeahead_list,.typeahead_list_absolute{z-index:300}
+.typeahead_list .typeahead_suggestion,.typeahead_list .typeahead_message{border-top:1px solid #ddd;padding:3px}
+.typeahead_list .typeahead_suggestion{background:#fff;color:#000;cursor:default;opacity:.94}
+.typeahead_list .typeahead_suggestion:hover{cursor:pointer;cursor:hand}
+.typeahead_list .typeahead_suggestion em{background:#d8dfea;color:#000;font-style:normal;font-weight:bold}
+.typeahead_list .typeahead_suggestion small{color:#808080;padding-left:5px}
+.typeahead_list .typeahead_selected{background:#3b5998;color:#fff;opacity:1}
+.typeahead_list .typeahead_selected small{color:#95a5c6}
+.typeahead_list .typeahead_selected em{background:#5670a6;color:#fff}
+.typeahead_list .typeahead_message{background:#eee;color:#333}
+input.typeahead_found{background-color:#e1e9f6}
+.typeahead_iframe{left:0;opacity:0;position:absolute;top:0}
+.typeahead_parent{margin:0;padding:0;overflow:visible;position:relative;float:left;width:0;height:0}
+.typeahead_list_icon{width:27px;height:22px;position:absolute;left:-30px;top:3px;cursor:pointer;padding:0}
+.tokenizer{min-height:5px;padding:0 0 3px 3px;width:100%;background:#fff;font-size:11px}
+.tokenizer_locked{background:#f4f4f4}
+.tokenizer,.tokenizer *{cursor:text}
+.tokenizer .placeholder{color:#777;float:left;margin-top:5px}
+.tokenizer input{width:100%}
+.tokenizer .tokenizer_input,.tokenizer .token{float:left;margin-right:3px;margin-top:3px}
+.tokenizer .tab_stop,.tokenizer .tokenizer_stretcher{display:block;float:left;overflow:hidden}
+.tokenizer .tab_stop{height:1px;width:1px}
+.tokenizer .tokenizer_stretcher{width:0;padding-top:7px}
+#facebook .tokenizer .tab_stop input{border:0 solid black;display:inline;position:relative;left:-500px}
+.tokenizer_input_borderless div{left:4px;margin-left:-1px;overflow:hidden;position:relative}
+.tokenizer_input_borderless div input{border:3px solid white!important;border-left:none;display:block;margin:-2px 0 -2px -2px;padding:0!important}
+.tokenizer div:-moz-first-node{padding-top:1px!important}
+.tokenizer_input{max-width:450px;overflow:hidden;padding:1px 0}
+#facebook .tokenizer_input input,.tokenizer_input_shadow{border:0 solid black;font-family:'lucida grande', tahoma, verdana, arial, sans-serif;font-size:11px;padding:0 5px;white-space:pre}
+.tokenizer_input_shadow{display:inline;left:-10000px;position:absolute;top:-10000px}
+.tokenizer .tokenizer_input_shadow{height:0;display:block;left:0;overflow:hidden;position:relative;top:0}
+div.tokenizer .inline_placeholder{color:#777;display:block;float:left;padding:5px 0 0 2px}
+div.tokenizer .token{background-image:url(https://s-static.ak.facebook.com/rsrc.php/v1/zK/r/mD9hhq3V835.gif);background-repeat:no-repeat;color:#000;white-space:nowrap}
+div.tokenizer .token span{background-image:url(https://s-static.ak.facebook.com/rsrc.php/v1/zK/r/mD9hhq3V835.gif);background-position:top right;background-repeat:no-repeat;display:block}
+div.tokenizer .token span span{background-position:bottom right}
+div.tokenizer .token span span span{background-position:bottom left}
+div.tokenizer .token span span span span{background-image:none;padding:2px 3px 2px 5px}
+div.tokenizer.tokenizer_locked .token span span span span{padding-right:5px}
+html div.tokenizer_locked .token:hover,html div.tokenizer_locked .token:hover span{background-image:url(https://s-static.ak.facebook.com/rsrc.php/v1/zK/r/mD9hhq3V835.gif)}
+div.tokenizer .token:hover,div.tokenizer .token:hover span{background-image:url(https://s-static.ak.facebook.com/rsrc.php/v1/zm/r/Ze4Z6J_Shqw.gif);text-decoration:none}
+div.tokenizer .token_selected,div.tokenizer .token_selected span,div.tokenizer .token_selected:hover,div.tokenizer .token_selected:hover span{background-image:url(https://s-static.ak.facebook.com/rsrc.php/v1/zY/r/4A94TeChhwl.gif);color:#fff;text-decoration:none}
+div.tokenizer .token span.x,div.tokenizer .token span.x_hover,div.tokenizer .token:hover span.x,div.tokenizer .token:hover span.x_hover{background:url(https://s-static.ak.facebook.com/rsrc.php/v1/zV/r/IJYgcESal33.png) no-repeat -842px -64px;cursor:pointer;display:inline;padding:0 6px 0 5px}
+div.tokenizer.tokenizer_locked .token span.x,div.tokenizer.tokenizer_locked .token span.x_hover{display:none}
+div.standard_tokenizer div.tokenizer{border:solid 1px #8f96bd}
+.typeahead_list .typeahead_suggestion .with_pic small{padding-left:0}
+#UIErrorForm_GenericError{margin:0 0 7px 0}
+.UIErrorForm_Field .inputtext{border:none;padding:3px 0 3px 3px;display:block}
+.UIErrorForm_Field select{border:1px solid #bdc7d8}
+.UIErrorForm_NoError{border:1px solid #bdc7d8;display:block;float:left;position:relative}
+.UIErrorForm_NoInput{display:block;float:left;position:relative}
+.UIErrorForm_ErrorField{border:2px solid #dd3c10}
+.UIErrorForm_ErrorField input{border:none;margin:0}
+.UIErrorForm_Flag{background:url(https://s-static.ak.facebook.com/rsrc.php/v1/zc/r/6jCZEoCSyRO.gif) top left no-repeat;padding:0 0 0 10px;position:absolute;top:-2px;width:200px;z-index:2}
+.UIErrorForm_Flag_Inner{background-color:#ffebe8;border-bottom:1px solid #eb8266;display:block;padding:4px 7px 3px 9px}
+.UIPager_Button{background-image:url(https://s-static.ak.facebook.com/rsrc.php/v1/zi/r/cjbi0nm-PSz.png);background-repeat:no-repeat;float:left;height:23px;position:relative;width:43px;z-index:2}
+.UIPager_ButtonBack{margin-right:-1px}
+.UIPager_ButtonBack:active{background-position:0 -23px}
+.UIPager_ButtonForward{background-position:-43px 0}
+.UIPager_ButtonForward:active{background-position:-43px -23px}
+.UIPager_ButtonDisabled .UIPager_ButtonBack,.UIPager_ButtonDisabled .UIPager_ButtonBack:active{background-position:0 -46px;cursor:default;z-index:1}
+.UIPager_ButtonDisabled .UIPager_ButtonForward,.UIPager_ButtonDisabled .UIPager_ButtonForward:active{background-position:-43px -46px;cursor:default;z-index:1}
+.UIPager_Vertical .UIPager_ButtonBack{background-position:-86px 0}
+.UIPager_Vertical .UIPager_ButtonBack:active{background-position:-86px -23px}
+.UIPager_Vertical .UIPager_ButtonForward{background-position:-129px 0}
+.UIPager_Vertical .UIPager_ButtonForward:active{background-position:-129px -23px}
+.UIPager_Vertical .UIPager_ButtonDisabled .UIPager_ButtonBack,.UIPager_Vertical .UIPager_ButtonDisabled .UIPager_ButtonBack:active{background-position:-86px -46px}
+.UIPager_Vertical .UIPager_ButtonDisabled .UIPager_ButtonForward,.UIPager_Vertical .UIPager_ButtonDisabled .UIPager_ButtonForward:active{background-position:-129px -46px}
+.UIPager .UIPager_PageNum{color:#000;float:left;font-size:10px;line-height:22px;padding-right:10px}
+.contextual_dialog .generic_dialog_popup{padding-top:9px;position:absolute;width:360px}
+.contextual_dialog .arrow{background-image:url(https://s-static.ak.facebook.com/rsrc.php/v1/z1/r/eae62KoJhLY.png);background-repeat:no-repeat;height:9px;margin-left:25px;margin-top:-2px;position:absolute;top:4px;width:13px}
+.contextual_dialog .contextual_dialog_content{background:#fff;border:1px solid #333;border-bottom:2px solid #283e6a;line-height:15px}
+.contextual_dialog .contextual_dialog_content div.dialog_loading{background:#fff;border:0}
+.contextual_dialog .dialog_title{color:#000;font-size:11px;padding-bottom:2px;padding:8px 10px 0}
+.contextual_dialog .dialog_body{padding:8px 10px}
+.contextual_dialog .dialog_buttons{background-color:#f2f2f2;border-top:1px solid #ccc;padding:8px 10px}
+.contextual_dialog .dialog_buttons_msg{float:right}
+.uiMoreLinkCaret{padding-left:2px;padding-bottom:2px}
+.uiSideNav .divider{border-bottom:1px solid #ededed;border-top:1px solid #ededed;height:1px;left:auto;display:none;padding-left:0;margin-bottom:1px;width:179px;font-size: 1px;line-height:1px;overflow:hidden}
+.editMode .uiSideNav .hidden,.expandedMode .uiSideNav .hidden,.expandedMode .uiSideNav .divider{display:block}
+.navMoreLess{line-height:12px;padding:3px 8px 4px 28px}
+.navMoreLessCount{margin:0}
+.navMoreText{display:block;width:100%}
+.navMoreTextWithCount{width:75% !important}
+.navMore i{position:absolute}
+.navMore:hover i{text-decoration:none}
+.navLess{line-height:12px}
+div.navLess,.expandedMode .navMore{display:none}
+.expandedMode .navLess{display:block}
+.uiSideNavCountSprited{background:url(https://s-static.ak.facebook.com/rsrc.php/v1/zk/r/BwKwOpPWbGZ.png) no-repeat 0 -13px;color:#3b5998;display:inline-block;font-size:9px;line-height:13px;padding-left:3px}
+.uiSideNavCountSprited span.countValue{background:url(https://s-static.ak.facebook.com/rsrc.php/v1/zk/r/BwKwOpPWbGZ.png) no-repeat right 0;color:#3b5998;display:inline-block;line-height:13px;padding:0 4px 1px 1px;font-weight:bold}
+.uiSideNav .selectedItem .subitem:hover .uiSideNavCountSprited{background:url(https://s-static.ak.facebook.com/rsrc.php/v1/zk/r/BwKwOpPWbGZ.png) no-repeat 0 -13px}
+.uiSideNav .selectedItem .subitem:hover .uiSideNavCountSprited span.countValue{background:url(https://s-static.ak.facebook.com/rsrc.php/v1/zk/r/BwKwOpPWbGZ.png) no-repeat right 0;color:#3b5998;text-decoration:none}
+.uiSideNav .selectedItem a:hover .uiSideNavCountSprited{background-image:none}
+.uiSideNav .selectedItem a:hover .uiSideNavCountSprited span.countValue{background:none;color:#3b5998}
+.uiSideNavCount{background-color:#d8dfea;-webkit-border-radius:2px;color:#3b5998;font-weight:bold;left:-1px;padding:0 4px;position:relative}
+.uiSideNav .selectedItem .subitem:hover .uiSideNavCount{background-color:#d8dfea;color:#3b5998}
+.uiSideNav .selectedItem a:hover .uiSideNavCount{background-color:transparent;color:#3b5998;text-decoration:none}
+.uiSideNavCount .countValue{color:#3b5998}
+.uiSideNav .dark-grey-float-right{color:#333;font-weight:bold;float:right;padding:0}
+.uiSideNav span.blue-bubble-float-right{float:right}
+.actionLinks span.blue-bubble-float-right{float:right;margin-right:4px}
+.uiSideNav .loading .dark-grey-float-right,.uiSideNav .loading .blue-bubble-float-right{display:none}
+
+#bootloader_ZRXLH { height: 42px; }

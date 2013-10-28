@@ -1,0 +1,175 @@
+body 
+{
+    margin:0px;
+    padding:0px;
+    font-family:Trebuchet MS;
+    font-size:11px;
+    color:#ffffff;
+    overflow:hidden;
+}
+
+#content
+{
+    overflow:hidden;
+}
+
+table
+{
+    border:none;
+    border-spacing:0px;
+    padding:0px;
+    width:100%;
+    height:100%
+}
+
+#web
+{
+    border-style:none;
+    height:100%;
+    visibility:hidden;
+    width:100%;
+}
+
+.panel 
+{
+    background:#000000;
+    border-bottom:solid 1px #999999;
+}
+
+div.logo
+{
+    top:100%; left:100%;
+    position:absolute;
+}
+
+img.imglogo
+{
+    position:absolute;
+    top:-62;
+    left:-136;
+}
+
+div.progressbar
+{
+    position:absolute;
+    top:0px;
+    background-image:url("images/progressbg.png");
+    width:216px;
+    height:43px;
+    opacity:0;
+    filter:alpha(opacity=0);
+}
+div.progressbar table
+{
+    position:absolute;
+    left:8px;
+    top:8px;
+    width:200px;
+    height:27px;
+    padding:0px;
+    border-spacing:0px;
+    border:none;
+}
+div.progressbar td
+{
+    background:url("images/shadow.png") no-repeat;
+    width:auto;
+}
+
+#progress 
+{
+    width:50%;
+    background:url("images/progress.png") no-repeat;
+}
+
+.lockButton
+{
+    width:100%;
+    height:150px;
+    visibility:hidden;
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    visibility:hidden;
+    opacity:0.6;
+    filter:alpha(opacity=60);
+    background:#666666;
+}
+
+.lockSingleButton
+{
+    height:150px;
+    width:25%;
+    visibility:hidden;
+    opacity:0.6;
+    filter:alpha(opacity=60);
+    background:#666666;
+    position:absolute;
+    bottom:0px;
+}
+
+#notebg
+{
+	position:absolute;
+	top:50px;
+	left:50%;
+	height:530px;
+	width:600px;
+}
+
+#notebg ._notebg
+{
+	position:absolute;
+	left:-50%;
+	filter:alpha(opacity=70);
+	background:#333333;
+	opacity:0.7;
+	height:530px;
+	width:600px;
+	border-radius:8px;
+}
+
+.note
+{
+	left:-50%;
+	height:530px;
+	position:absolute;
+	width:600px;
+}
+
+.noteinn
+{
+	padding:14px;
+	top:60px;
+	left:20px;
+	right:20px;
+	bottom:20px;
+	position:absolute;
+	background:#ffffff;
+	height:430px;
+	width:540px;
+	color:#000000;
+	font-family:"Trebuchet MS";
+	font-size:13px;
+	text-align:justify;
+}
+
+.noteheader
+{
+	position:absolute;
+	border-spacing:0px;
+	padding::0px;
+	width:560px;
+	height:40px;
+	top:20px;
+	
+	left:30px;
+}
+
+.mytd
+{
+	color:#000000;
+	text-align:center;
+	vertical-align:middle;
+	background:#777777;
+}

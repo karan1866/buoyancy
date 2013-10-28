@@ -1,0 +1,15 @@
+/*1302562835,169775559*/
+
+.fbPhotosCloseButton{background-image:url(https://s-static.ak.facebook.com/rsrc.php/v1/zX/r/bLZF2p2jXNV.png)}
+.fbPhotosCloseButtonSmall{background-image:url(https://s-static.ak.facebook.com/rsrc.php/v1/zx/r/DpU33-mlpyg.png)}
+.fbProfileEditLink{text-align:left;background:url(https://s-static.ak.facebook.com/rsrc.php/v1/zh/r/_S0u1wZb3JC.png) no-repeat left 2px;padding-left:14px}
+.fbProfileThumbRemove{position:relative}
+.fbProfileThumbRemoveX{display:none;right:3px;position:absolute;top:2px}
+.fbProfileThumbRemove:hover .fbProfileThumbRemoveX,.async_saving .fbProfileThumbRemoveX,.fbProfileThumbRemoveDialog{text-decoration:none;display:block}
+.async_saving .fbProfileThumbRemoveX .fbProfilePhotoClose,.fbProfileThumbRemoveDialog .fbProfilePhotoClose{background-position:left -22px}
+.fbProfileThumbDontShowAgain label{font-weight:normal;vertical-align:text-bottom}
+.fbProfileSuppressConfirm .async_saving{display:none}
+.async_saving .fbProfilePhotoThumb{background:url(https://s-static.ak.facebook.com/rsrc.php/v1/zk/r/LOOn0JtHNzb.gif) no-repeat center center}
+.async_saving .fbProfilePhotoThumb i{opacity:.3}
+
+#bootloader_1NU57 { height: 42px; }

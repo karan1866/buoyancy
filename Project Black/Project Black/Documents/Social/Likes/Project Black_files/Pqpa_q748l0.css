@@ -1,0 +1,20 @@
+/*1297787965,169775814*/
+
+.profileTour #toolbarContainer{border-right:1px solid #fff;position:fixed;top:41px;width:981px;z-index:200}
+.profileTour #mainContainer{padding-top:93px}
+.profileTour #blueBar{position:fixed;z-index:201}
+.profileTour #globalContainer #pageHead{position:fixed;top:0;width:981px;z-index:202}
+.profileTour #intern_bookmark_frame{display:none}
+.uiMarketingToolbar{margin-bottom:-3px;position:relative;z-index:1}
+.uiMarketingToolbar .toolbarContentContainer{border:solid #b3b3b3;border-width:0 1px}
+.uiMarketingToolbar .tourLabel{white-space:nowrap}
+.uiMarketingToolbar .toolbarFullbleed{width:100%}
+.uiMarketingToolbar .tourSteplist{background-color:#d8deea}
+.uiMarketingToolbar .mainGrid{height:31px}
+.uiMarketingToolbar .tourLoader{display:none}
+.uiMarketingToolbar .async_saving .tourLoader{display:block}
+.uiMarketingToolbar .toolbarShingle{background-color:rgba(238, 238, 238, .75);border-top:1px solid #b3b3b3;height:3px}
+.fbStreamBlankState .boxNub{display:block;margin:0 0 -1px 7px}
+.fbStreamBlankState .blankState{border:1px dashed #ccc;color:#666;line-height:15px;padding:8px}
+
+#bootloader_xEUdU { height: 42px; }

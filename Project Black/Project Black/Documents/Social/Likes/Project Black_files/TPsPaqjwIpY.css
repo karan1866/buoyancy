@@ -1,0 +1,77 @@
+/*1301887168,176820405*/
+
+.UINarrowFrame_Container{width:560px;padding:0;overflow:hidden}
+.UINarrowFrame_FullWidth{width:600px}
+.UINarrowFrame_CenterPage{margin:0 auto}
+form.checkpoint{margin:auto;width:100%}
+.checkpointThumbnail{width:515px}
+div.checkpointInterstitialSmall{width:445px}
+div.checkpointInterstitialLarge{width:555px}
+div.checkpointInterstitialXlarge{width:665px}
+div.checkpointInterstitialFriendPhoto{width:1100px}
+.checkpoint #friendphotocaptcha_intro{width:inherit}
+#ci_module_list{background-color:#fff}
+#ci_module_list li.ci_module:hover{background-color:#edeff4;cursor:pointer}
+#ci_module_list li.ci_module.expanded{background-color:#edeff4;cursor:default}
+#ci_module_list li.expanded .expand_link{display:none}
+#ci_modules_hidden .ci_module:first-child{border-top-width:1px}
+#wizard_step #ci_module_list,#wizard_step #ci_module_list li.ci_module.expanded,#wizard_step #ci_module_list li.ci_module.expanded:hover{background-color:#ededed}
+#wizard_step #ci_module_list li.ci_module:hover{background-color:#fff}
+#ci_module_list .ci_module{padding-left:10px;padding-right:10px;border-color:#d8dfea}
+#ci_module_list .ci_module .ci_module_header{height:35px;vertical-align:middle;line-height:35px}
+#ci_module_list .ci_module .expand_link{display:inline-block;margin-top:9px}
+#ci_module_list .other_tools .ci_module_content{margin-left:42px}
+#ci_module_list .other_tools .ci_module_content a{line-height:22px}
+#ci_module_list .ci_module .contact_importer_widget .label{width:130px;text-align:right}
+.autoimport{line-height:16px;margin:0 0 5px 0}
+.autoimport li{margin-top:6px}
+.autoimport p{margin-top:5px}
+.autoimport .error{background:#FFEBE8 none repeat scroll 0;border:1px solid #dd3c10;margin:10px 0;padding:10px}
+.autoimport .status{margin:10px 0}
+.autoimport #note{margin-top:10px}
+.autoimport .message{margin-top:10px}
+.friends #content{position:relative;padding:0}
+.friends .tabs{padding-top:20px}
+#friendtables:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+#friendtables{display:block}
+#filter{float:left;width:450px}
+#filter a{float:left;clear:right;display:block;width:160px;padding:2px 3px;margin:0 2px 2px 0;color:#000;border:solid 1px #f7f7f7;border-bottom:solid 2px #f7f7f7}
+#filter a:hover{background:white;border:solid 1px #d8dfea;border-bottom:solid 2px #d8dfea;text-decoration:none}
+#filter a.selected{background:white;border:solid 1px #d8dfea;border-bottom:solid 2px #3b5998}
+#friendtables{margin:0;padding:10px 10px 5px;background:#f7f7f7}
+.friendtable{margin:0;padding:9px;margin-bottom:5px;background:white;border:solid 1px #ccc}
+.friendtable .image{vertical-align:top;text-align:left;width:110px}
+.friendtable .info{vertical-align:top;width:386px}
+.friendtable .info table{width:380px}
+.friendtable .dark a{color:#555}
+.friendtable .info td{vertical-align:top;font-size:11px;line-height:14px;margin:0;padding:0 0 1px 0}
+.friendtable .info .updates{margin:-2px;margin:0;padding:0 0 1px 0;background:#fff8cc;border-bottom:solid 1px #ffe222}
+.friendtable .info .label{width:70px;color:#808080}
+.friendtable .info .name{color:#333;font-weight:bold;font-size:13px;vertical-align:bottom;line-height:15px}
+.friendtable .info .name.label{color:#808080;font-weight:normal;font-size:11px;line-height:15px}
+.friendtable .info .name a{line-height:15px}
+.friendtable .imagecontainer{width:100px;background-color:#f7f7f7;border:1px solid #ccc}
+.friendtable .imagecontainer .image{width:100px}
+.darkcaption div{border-top:1px solid #ccc;background-color:#f7f7f7;width:200px;padding:4px;margin-top:4px}
+.friendtable .classify{width:320px;border:solid 1px hotpink;background:pink}
+.friendtable .actions{vertical-align:top;width:100px}
+.friendtable .actions a,.friendtable .actions span{display:block;margin:0;padding:2px 4px;text-decoration:none;border-bottom:solid 1px #d8dfea}
+.friendtable .actions a:hover{color:#fff;background:#3b5998;text-decoration:none}
+.friendtable .actions .inactive{padding:0 3px 1px 3px;color:#808080}
+.friendtable small{padding-left:3px;color:#808080}
+#pagebody.confirminvite #content{padding:0}
+.confirmcount{text-align:left;color:#3b5998;font-weight:bold;line-height:21px;font-size:11px;margin:10px 0 0 0}
+.confirmcount h4{margin:-10px 0 0 0}
+.confirm{padding:5px;margin:0 0 5px;background:white;border:solid 1px #d8dfea}
+.confirm .image{width:110px;text-align:left}
+.confirm td{vertical-align:top}
+.friends .bottompager{float:right}
+#friend_filter_select{width:135px}
+#friends_network_select{width:180px}
+.remove_friends #content{padding:20px 0}
+#conf_code_input input{width:70px}
+.securityq_prompt{padding-bottom:12px}
+.uiP{line-height:16px}
+.uiPLarge{line-height:18px}
+
+#bootloader_Up_nc { height: 42px; }

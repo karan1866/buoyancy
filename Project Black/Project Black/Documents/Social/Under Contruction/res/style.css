@@ -1,0 +1,50 @@
+﻿body 
+{
+    background:#000000;
+    padding:0px;
+    margin:0px;
+}
+.construct 
+{
+    position:absolute;
+    background-image:url('image1.jpg');
+    height:300px;
+    width:500px;
+    left:-250px;
+}
+.container
+{
+    position:absolute;
+    height:300px;
+    width:500px;
+    top:150px;
+    left:50%;
+}
+.link
+{
+    position:absolute;
+    bottom:6px;
+    right:10px;
+    font-family:"Trebuchet MS";
+    text-align:right;
+    color:#ffffff;
+}
+.link a
+{
+    text-decoration:none;
+    color:#0085e8
+}
+.link a:hover
+{
+    text-decoration:none;
+    color:#84cbe8
+}
+.logo
+{
+    height:54px;
+    width:122px;
+    position:absolute;
+    bottom:15px;
+    left:15px;
+    background-image:url('logo.png');
+}
