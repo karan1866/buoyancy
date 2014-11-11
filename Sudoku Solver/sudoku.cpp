@@ -1,143 +1,90 @@
 #include<iostream>
-#include <stdlib.h>
-#include <string.h>
+#include<conio.h>
 
 using namespace std;
 
 int sudoku[9][9];
-int original[9][9];
-int a=-1;		//current position
-int constraints[10];
 
-void echo();
 
-void getConstraints(int x,int y)
+int check(int a, int n)
 {
-	for(int k=0;k<10;k++)
-		constraints[k]=0;
-	//check row/column
-	for(int i=0;i<9;i++)
-	{
-		if(x!=i)
-			constraints[sudoku[i][y]]=1;
-		if(y!=i)
-			constraints[sudoku[x][i]]=1;
-	}
-	
-	//check box
-	int h=(x/3)*3;
-	int k=(y/3)*3;
+	int h=a/9,k=a%9;
 	
 	for(int i=0;i<9;i++)
 	{
-		if(h+i%3!=x && k+i/3!=y)
-		constraints[sudoku[h+i%3][k+i/3]]=1;
+		if(sudoku[h][i]==n || sudoku[i][k]==n)
+			return 0;
+		if(sudoku[(h/3)*3 + i/3][(k/3)*3 + i%3]==n)
+			return 0;
 	}
 	
+	return 1;
 }
 
-int move()
+int solve()
 {
-	do
+	
+	for(int a=0;a<81;a++)
 	{
-		
-		a--;
-	}while(original[a%9][a/9]>0 && a>=0);
-	if (a<0)
-	{
-		//return 0;			// overflow
-		cout <<"overflow";
-		exit(0);
+		if(sudoku[a/9][a%9]==0)
+		{
+			for(int i=1;i<=9;i++)
+			{
+				if(check(a,i))
+				{
+					sudoku[a/9][a%9]=i;
+					if(!solve())
+						sudoku[a/9][a%9]=0;
+					else
+						return 1;
+				}
+			}
+			sudoku[a/9][a%9]=0;
+			return 0;
+		}
 	}
 	return 1;
 }
 
-
-void solve()
-{
-	while(1)
-	{
-	
-		a++;							//
-		if(a>=81)						//
-			break;						//move next
-		if(original[a%9][a/9]>0)		//
-			continue;					//
-		
-		getConstraints(a%9,a/9);
-		int value=sudoku[a%9][a/9];
-		
-		do	//default value is zero if not then value is being corrected
-		{
-			value++;			// get the next value which is not constraint
-		}while(constraints[value]);		
-		
-		if(value==10)	//means there is a mistake, go back and fix
-		{
-			
-			sudoku[a%9][a/9]=0;	// since we're going back we have to null the value
-								// of current cell
-			
-			
-			move();
-			move();	// to go back 1 step i have to process two back steps
-							// because continue will cause automatic next step
-							// due to the while loop
-			
-			continue;
-		}
-		else
-		{
-			sudoku[a%9][a/9]=value;
-		}
-	}
-	
-	
-	
-}
-
-
-void echo_plain()
-{
+void print()
+{	
+	cout << "\n";
 	for(int i=0;i<9;i++)
 	{
-		for(int j=0;j<9;j++)
-		{
-			cout << sudoku[j][i];
-		}
-	}
-}
+		if(i%3==0)
+			cout << "\n";
 
-void echo()
-{
-	for(int i=0;i<9;i++)
-	{
-		cout << "\t";
 		for(int j=0;j<9;j++)
 		{
-			cout << sudoku[j][i] << " ";
-			if(j==2||j==5)
+			if(j%3==0)
 				cout << "\t";
+			cout << sudoku[i][j] << " ";
 		}
-		if(i==2||i==5)
-				cout << "\n";
 		cout << "\n";
+	}
+}
+
+void print_plain()
+{
+	for(int i=0;i<81;i++)
+	{
+		cout << sudoku[i/9][i%9];
 	}
 }
 
 int main(int argc, char* argv[])
 {
-	
-	for (int i=0;i<81;i++)
+	for(int i=0;i<81;i++)
 	{
-		sudoku[i%9][i/9]= argv[1][i]-48;
-		original[i%9][i/9]=sudoku[i%9][i/9];
+		//cin >> sudoku[i/9][i%9];
+		//sudoku[i/9][i%9]=0;
+		sudoku[i/9][i%9] = argv[1][i]-48;
 	}
+		
+	if(!solve())
+		cout << "overflow";
+	else
+		print_plain();
 	
-	
-	solve();
-
-	echo_plain();
-
 	return 0;
 }
