@@ -1,0 +1,52 @@
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Release\wpfDock.baml
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Release\wpfSettings.baml
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Release\wpfDock.g.vb
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Release\wpfSettings.g.vb
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Release\Application.g.vb
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Release\SprintDock_MarkupCompile.cache
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Release\SprintDock.g.resources
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Release\SprintDock.DirListBox.resources
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Release\SprintDock.Resources.resources
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Release\SprintDock.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\bin\Release\SprintDock.exe.config
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\bin\Release\SprintDock.exe
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\bin\Release\SprintDock.xml
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Release\SprintDock.exe
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Release\SprintDock.xml
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Release\SprintDock.FileListBox.resources
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Release\Window1.baml
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Release\Window1.g.vb
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Release\GeneratedInternalTypeHelper.g.vb
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Release\SprintDock_MarkupCompile.lref
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Release\Themes\Generic.baml
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Release\MyList.baml
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Release\MyList.g.vb
+D:\Karan\Work\Projects\SprintDock\SprintDock\bin\Release\SprintDock.exe.config
+D:\Karan\Work\Projects\SprintDock\SprintDock\bin\Release\SprintDock.exe
+D:\Karan\Work\Projects\SprintDock\SprintDock\bin\Release\SprintDock.xml
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Release\ResolveAssemblyReference.cache
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Release\Clock.baml
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Release\MyList.baml
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Release\wpfIconSettings.baml
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Release\wpfDock.baml
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Release\wpfMsgBox.baml
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Release\wpfSettings.baml
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Release\Clock.g.vb
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Release\MyList.g.vb
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Release\wpfIconSettings.g.vb
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Release\wpfDock.g.vb
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Release\wpfMsgBox.g.vb
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Release\wpfSettings.g.vb
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Release\Application.g.vb
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Release\GeneratedInternalTypeHelper.g.vb
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Release\SprintDock_MarkupCompile.cache
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Release\SprintDock_MarkupCompile.lref
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Release\Themes\Generic.baml
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Release\SprintDock.g.resources
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Release\SprintDock.DirListBox.resources
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Release\SprintDock.FileListBox.resources
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Release\SprintDock.Resources.resources
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Release\SprintDock.vbproj.GenerateResource.Cache
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Release\SprintDock.exe
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Release\SprintDock.xml

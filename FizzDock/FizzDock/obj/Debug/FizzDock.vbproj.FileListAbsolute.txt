@@ -1,0 +1,54 @@
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\FizzDock\bin\Debug\FizzDock.exe
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\FizzDock\bin\Debug\FizzDock.pdb
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\FizzDock\bin\Debug\FizzDock.xml
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\FizzDock\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\FizzDock\obj\Debug\Extra\MyList.baml
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\FizzDock\obj\Debug\Extra\wpfMsgBox.baml
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\FizzDock\obj\Debug\Window1.baml
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\FizzDock\obj\Debug\wpfDock.baml
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\FizzDock\obj\Debug\wpfIconSettings.baml
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\FizzDock\obj\Debug\wpfLoad.baml
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\FizzDock\obj\Debug\wpfSettings.baml
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\FizzDock\obj\Debug\Extra\MyList.g.vb
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\FizzDock\obj\Debug\Extra\wpfMsgBox.g.vb
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\FizzDock\obj\Debug\Window1.g.vb
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\FizzDock\obj\Debug\wpfDock.g.vb
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\FizzDock\obj\Debug\wpfIconSettings.g.vb
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\FizzDock\obj\Debug\wpfLoad.g.vb
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\FizzDock\obj\Debug\wpfSettings.g.vb
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\FizzDock\obj\Debug\Application.g.vb
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\FizzDock\obj\Debug\FizzDock_MarkupCompile.cache
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\FizzDock\obj\Debug\FizzDock.g.resources
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\FizzDock\obj\Debug\FizzDock.DirListBox.resources
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\FizzDock\obj\Debug\FizzDock.FileListBox.resources
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\FizzDock\obj\Debug\FizzDock.Resources.resources
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\FizzDock\obj\Debug\FizzDock.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\FizzDock\obj\Debug\FizzDock.exe
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\FizzDock\obj\Debug\FizzDock.xml
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\FizzDock\obj\Debug\FizzDock.pdb
+D:\Karan\Work\Projects\FizzDock\FizzDock\obj\Debug\FizzDock.exe
+D:\Karan\Work\Projects\FizzDock\FizzDock\obj\Debug\FizzDock.xml
+D:\Karan\Work\Projects\FizzDock\FizzDock\obj\Debug\FizzDock.pdb
+D:\Karan\Work\Projects\FizzDock\FizzDock\bin\Debug\FizzDock.exe
+D:\Karan\Work\Projects\FizzDock\FizzDock\bin\Debug\FizzDock.pdb
+D:\Karan\Work\Projects\FizzDock\FizzDock\bin\Debug\FizzDock.xml
+D:\Karan\Work\Projects\FizzDock\FizzDock\obj\Debug\ResolveAssemblyReference.cache
+D:\Karan\Work\Projects\FizzDock\FizzDock\obj\Debug\Extra\MyList.baml
+D:\Karan\Work\Projects\FizzDock\FizzDock\obj\Debug\Extra\wpfMsgBox.baml
+D:\Karan\Work\Projects\FizzDock\FizzDock\obj\Debug\wpfDock.baml
+D:\Karan\Work\Projects\FizzDock\FizzDock\obj\Debug\wpfIconSettings.baml
+D:\Karan\Work\Projects\FizzDock\FizzDock\obj\Debug\wpfLoad.baml
+D:\Karan\Work\Projects\FizzDock\FizzDock\obj\Debug\wpfSettings.baml
+D:\Karan\Work\Projects\FizzDock\FizzDock\obj\Debug\Extra\MyList.g.vb
+D:\Karan\Work\Projects\FizzDock\FizzDock\obj\Debug\Extra\wpfMsgBox.g.vb
+D:\Karan\Work\Projects\FizzDock\FizzDock\obj\Debug\wpfDock.g.vb
+D:\Karan\Work\Projects\FizzDock\FizzDock\obj\Debug\wpfIconSettings.g.vb
+D:\Karan\Work\Projects\FizzDock\FizzDock\obj\Debug\wpfLoad.g.vb
+D:\Karan\Work\Projects\FizzDock\FizzDock\obj\Debug\wpfSettings.g.vb
+D:\Karan\Work\Projects\FizzDock\FizzDock\obj\Debug\Application.g.vb
+D:\Karan\Work\Projects\FizzDock\FizzDock\obj\Debug\FizzDock_MarkupCompile.cache
+D:\Karan\Work\Projects\FizzDock\FizzDock\obj\Debug\FizzDock.g.resources
+D:\Karan\Work\Projects\FizzDock\FizzDock\obj\Debug\FizzDock.DirListBox.resources
+D:\Karan\Work\Projects\FizzDock\FizzDock\obj\Debug\FizzDock.FileListBox.resources
+D:\Karan\Work\Projects\FizzDock\FizzDock\obj\Debug\FizzDock.Resources.resources
+D:\Karan\Work\Projects\FizzDock\FizzDock\obj\Debug\FizzDock.vbproj.GenerateResource.Cache

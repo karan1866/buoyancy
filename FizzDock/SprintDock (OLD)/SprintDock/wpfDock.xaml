@@ -1,0 +1,14 @@
+﻿<Window x:Class="wpfDock" Topmost="True" WindowStyle="None" Background="Transparent" AllowsTransparency="True" Top="0" Left="0"  
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+    Title="SprintDock" Height="278" Width="212" ShowInTaskbar="False">
+    <Grid Name="grdMain" Height="64">
+        <Grid Name ="grdBG" Height="64">
+            <Image Name="imgCenter" Stretch="Fill" Width="64"></Image>
+            <Image Name="imgLeft" Stretch="Fill"  HorizontalAlignment="Left" Width="64" Margin="0,0,0,0"></Image> 
+            <Image Name="imgRight" Stretch="Fill" HorizontalAlignment="Right" Width="64"></Image>
+        </Grid>
+        <Grid Margin="70,0,70,8" Name="Icons" Width="48" Height="48" VerticalAlignment="Bottom"></Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,75 @@
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\SprintDock\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\SprintDock\obj\Debug\wpfSettings.baml
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\SprintDock\obj\Debug\wpfSettings.g.vb
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\SprintDock\obj\Debug\Application.g.vb
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\SprintDock\obj\Debug\SprintDock_MarkupCompile.cache
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\SprintDock\obj\Debug\SprintDock.g.resources
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\SprintDock\obj\Debug\SprintDock.Resources.resources
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\SprintDock\obj\Debug\SprintDock.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\SprintDock\bin\Debug\SprintDock.exe.config
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\SprintDock\bin\Debug\SprintDock.exe
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\SprintDock\bin\Debug\SprintDock.pdb
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\SprintDock\bin\Debug\SprintDock.xml
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\SprintDock\obj\Debug\SprintDock.exe
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\SprintDock\obj\Debug\SprintDock.xml
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\SprintDock\obj\Debug\SprintDock.pdb
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\SprintDock\obj\Debug\wpfDock.baml
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\SprintDock\obj\Debug\wpfDock.g.vb
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\bin\Debug\SprintDock.exe.config
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Debug\SprintDock.xml
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Debug\SprintDock.pdb
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\bin\Debug\SprintDock.exe
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\bin\Debug\SprintDock.pdb
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\bin\Debug\SprintDock.xml
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Debug\wpfDock.baml
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Debug\wpfSettings.baml
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Debug\wpfDock.g.vb
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Debug\wpfSettings.g.vb
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Debug\Application.g.vb
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Debug\SprintDock_MarkupCompile.cache
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Debug\SprintDock.g.resources
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Debug\SprintDock.Resources.resources
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Debug\SprintDock.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Debug\SprintDock.exe
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Debug\SprintDock.DirListBox.resources
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Debug\SprintDock.FileListBox.resources
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Debug\GeneratedInternalTypeHelper.g.vb
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Debug\SprintDock_MarkupCompile.lref
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Debug\Themes\Generic.baml
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Debug\MyList.baml
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Debug\MyList.g.vb
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Debug\wpfIconSettings.baml
+C:\Documents and Settings\Karan\My Documents\Visual Studio 2008\Projects\SprintDock\SprintDock\obj\Debug\wpfIconSettings.g.vb
+D:\Karan\Work\Projects\SprintDock\SprintDock\bin\Debug\SprintDock.exe.config
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Debug\SprintDock.exe
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Debug\SprintDock.xml
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Debug\SprintDock.pdb
+D:\Karan\Work\Projects\SprintDock\SprintDock\bin\Debug\SprintDock.exe
+D:\Karan\Work\Projects\SprintDock\SprintDock\bin\Debug\SprintDock.pdb
+D:\Karan\Work\Projects\SprintDock\SprintDock\bin\Debug\SprintDock.xml
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Debug\ResolveAssemblyReference.cache
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Debug\MyList.baml
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Debug\wpfIconSettings.baml
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Debug\wpfDock.baml
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Debug\wpfSettings.baml
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Debug\MyList.g.vb
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Debug\wpfIconSettings.g.vb
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Debug\wpfDock.g.vb
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Debug\wpfSettings.g.vb
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Debug\Application.g.vb
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Debug\GeneratedInternalTypeHelper.g.vb
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Debug\SprintDock_MarkupCompile.cache
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Debug\SprintDock_MarkupCompile.lref
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Debug\Themes\Generic.baml
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Debug\SprintDock.g.resources
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Debug\SprintDock.DirListBox.resources
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Debug\SprintDock.FileListBox.resources
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Debug\SprintDock.Resources.resources
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Debug\SprintDock.vbproj.GenerateResource.Cache
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Debug\wpfMsgBox.baml
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Debug\wpfMsgBox.g.vb
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Debug\SprintDock_Content.g.vb
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Debug\wpfMain.baml
+D:\Karan\Work\Projects\SprintDock\SprintDock\obj\Debug\wpfMain.g.vb
+D:\Karan\Work\Projects\SprintDock\SprintDock\bin\Debug\asddd.exe.config

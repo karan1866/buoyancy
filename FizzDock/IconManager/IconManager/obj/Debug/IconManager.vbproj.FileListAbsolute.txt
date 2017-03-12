@@ -1,0 +1,23 @@
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\IconManager\bin\Debug\IconManager.exe
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\IconManager\bin\Debug\IconManager.pdb
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\IconManager\bin\Debug\IconManager.xml
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\IconManager\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\IconManager\obj\Debug\IconManager.Form1.resources
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\IconManager\obj\Debug\IconManager.Resources.resources
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\IconManager\obj\Debug\IconManager.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\IconManager\obj\Debug\IconManager.exe
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\IconManager\obj\Debug\IconManager.xml
+C:\Documents and Settings\Karan\Local Settings\Application Data\Temporary Projects\IconManager\obj\Debug\IconManager.pdb
+D:\Karan\Work\Projects\Fizz\IconManager\IconManager\obj\Debug\IconManager.exe
+D:\Karan\Work\Projects\Fizz\IconManager\IconManager\obj\Debug\IconManager.xml
+D:\Karan\Work\Projects\Fizz\IconManager\IconManager\obj\Debug\IconManager.pdb
+D:\Karan\Work\Projects\FizzDock\IconManager\IconManager\obj\Debug\IconManager.exe
+D:\Karan\Work\Projects\FizzDock\IconManager\IconManager\obj\Debug\IconManager.xml
+D:\Karan\Work\Projects\FizzDock\IconManager\IconManager\obj\Debug\IconManager.pdb
+D:\Karan\Work\Projects\FizzDock\IconManager\IconManager\bin\Debug\IconManager.exe
+D:\Karan\Work\Projects\FizzDock\IconManager\IconManager\bin\Debug\IconManager.pdb
+D:\Karan\Work\Projects\FizzDock\IconManager\IconManager\bin\Debug\IconManager.xml
+D:\Karan\Work\Projects\FizzDock\IconManager\IconManager\obj\Debug\ResolveAssemblyReference.cache
+D:\Karan\Work\Projects\FizzDock\IconManager\IconManager\obj\Debug\IconManager.Resources.resources
+D:\Karan\Work\Projects\FizzDock\IconManager\IconManager\obj\Debug\IconManager.vbproj.GenerateResource.Cache
+D:\Karan\Work\Projects\FizzDock\IconManager\IconManager\obj\Debug\IconManager.frmIconManager.resources

@@ -1,0 +1,8 @@
+﻿<Window x:Class="wpfLoad" WindowStyle="None" Topmost="True" Icon="Fizz.ico"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" AllowsTransparency="True" 
+    Title="FizzDock" Height="128" Width="128" Background="Transparent" ShowInTaskbar="False">
+    <Grid Width="128" Height="128">
+        <Image Name="imgMain" Source="Icons\data\Fizz.png" Stretch="Fill" />
+    </Grid>
+</Window>

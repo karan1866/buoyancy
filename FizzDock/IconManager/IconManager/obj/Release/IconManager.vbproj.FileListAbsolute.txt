@@ -1,0 +1,10 @@
+D:\Karan\Work\Projects\FizzDock\IconManager\IconManager\bin\Release\IconManager.exe
+D:\Karan\Work\Projects\FizzDock\IconManager\IconManager\bin\Release\IconManager.pdb
+D:\Karan\Work\Projects\FizzDock\IconManager\IconManager\bin\Release\IconManager.xml
+D:\Karan\Work\Projects\FizzDock\IconManager\IconManager\obj\Release\ResolveAssemblyReference.cache
+D:\Karan\Work\Projects\FizzDock\IconManager\IconManager\obj\Release\IconManager.frmIconManager.resources
+D:\Karan\Work\Projects\FizzDock\IconManager\IconManager\obj\Release\IconManager.Resources.resources
+D:\Karan\Work\Projects\FizzDock\IconManager\IconManager\obj\Release\IconManager.vbproj.GenerateResource.Cache
+D:\Karan\Work\Projects\FizzDock\IconManager\IconManager\obj\Release\IconManager.exe
+D:\Karan\Work\Projects\FizzDock\IconManager\IconManager\obj\Release\IconManager.xml
+D:\Karan\Work\Projects\FizzDock\IconManager\IconManager\obj\Release\IconManager.pdb

@@ -1,0 +1,159 @@
+﻿<Window x:Class="wpfIconSettings" Topmost="True" Icon="Fizz.ico"
+    WindowStartupLocation="CenterScreen" ResizeMode="NoResize" 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" WindowStyle="None"
+    xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms" ShowInTaskbar="False"  
+    Title="Icon Settings" Height="434"  Name="Window1" AllowsTransparency="True" Background="Transparent" >
+    <Window.Resources>
+        <ControlTemplate x:Key="ListBoxTemplate" TargetType="{x:Type ListBoxItem}">
+            <Border Margin="5" MaxWidth="152" Padding="3" Background="WhiteSmoke" Width="148" Name="bg" BorderThickness="2" BorderBrush="#858585" CornerRadius="4">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="24"/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <ContentPresenter Margin="0,0,7,0" Name="Text" HorizontalAlignment="Stretch" TextBlock.FontFamily="Calibri" TextBlock.FontSize="13" RecognizesAccessKey="True"/>
+
+                    <Button Visibility="Hidden" Name="IconDel" Margin="0,0,7,0" HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Row="4" Click="Del" >DEL</Button>
+
+                    <Button Visibility="Visible" Name="PathChng" Margin="0,0,35,0" HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Row="4" Click="PathChanged">CHG</Button>
+                    
+                    <Button Visibility="Hidden" Name="Rename" Margin="0,0,7,0" HorizontalAlignment="Right" VerticalAlignment="Center" Click="Input" >RNM</Button>
+                    
+                    <Button Visibility="Hidden" Margin="29,0,0,0" Name="MoveUp" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="4" Click="MoveUp" >
+                        <TextBlock Margin="2,0,2,0" FontFamily="Calibri" FontWeight="Bold">/\</TextBlock>
+                    </Button>
+
+                    <Button Margin="7,0,0,0" Visibility="Hidden" Name="MoveDown" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="3" Click="MoveDown"  >
+                        <TextBlock Margin="2,0,2,0" FontFamily="Calibri" FontWeight="Bold">\/</TextBlock>
+                    </Button>
+
+                    <Grid Visibility="Hidden" Name="Image" Margin="7,1,2,5" Grid.Row="1" HorizontalAlignment="Left" Width="58" Height="58">
+                        <Border BorderBrush="#888888" BorderThickness="1.5,1.5,1.5,1.5" CornerRadius="5.5"/>
+                        <Image Visibility="Hidden" Margin="5" Name="ImageSource" Source="{Binding ElementName=img, Path=Source}" Stretch="Uniform" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="48" Height="48"/>
+                    </Grid>
+                    
+                        <TextBlock TextWrapping="Wrap" Grid.Row="2" Name="Path" Margin="12,3,18,8" Visibility="Visible" Text="{Binding ElementName=lstPath, Path=SelectedItem}"></TextBlock>
+                    </Grid>
+            </Border>
+            <ControlTemplate.Triggers>
+                <EventTrigger RoutedEvent="ListBoxItem.Selected">
+                    <EventTrigger.Actions>
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <ColorAnimation Storyboard.TargetName="bg" Storyboard.TargetProperty="BorderBrush.Color" From="#858585" Duration="0:0:0.3" To="White"/>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger.Actions>
+                </EventTrigger>
+                <EventTrigger RoutedEvent="ListBoxItem.Unselected">
+                    <EventTrigger.Actions>
+                       <BeginStoryboard>
+                            <Storyboard>
+                                <ColorAnimation Storyboard.TargetName="bg" Storyboard.TargetProperty="BorderBrush.Color" From="White" Duration="0:0:0.5" To="#858585"/>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger.Actions>
+                </EventTrigger>
+                <Trigger Property="IsSelected" Value="True">
+                    <Setter TargetName="bg" Property="Margin" Value="-1,6,0,6"/>
+                    <Setter TargetName="bg" Property="BorderThickness" Value="3,3,3,3"/>
+                    <Setter TargetName="bg" Property="CornerRadius" Value="10"/>
+                    <!--<Setter TargetName="bg" Property="BorderBrush" Value="#666666"/>-->
+                    <Setter TargetName="bg" Property="Background" Value="White"/>
+                    <Setter TargetName="bg" Property="Width" Value="152"/>
+                    <Setter TargetName="IconDel" Property="Visibility" Value="Visible"/>
+                    <Setter TargetName="MoveUp" Property="Visibility" Value="Visible"/>
+                    <Setter TargetName="Rename" Property="Visibility" Value="Visible"/>
+                    <Setter TargetName="MoveDown" Property="Visibility" Value="Visible"/>
+                    <Setter TargetName="Image" Property="Visibility" Value="Visible"/>
+                    <Setter TargetName="ImageSource" Property="Visibility" Value="Visible"/>
+                    <Setter TargetName="Text" Property="TextBlock.FontSize" Value="16"/>
+                    <Setter TargetName="Text" Property="TextBlock.FontWeight" Value="Bold"/>
+                </Trigger>
+                <Trigger Property="IsSelected" Value="False">
+                    <Setter TargetName="bg" Property="Height" Value="24"/>
+                    <Setter TargetName="Text" Property="Margin" Value="-1"/>
+                    <Setter TargetName="bg" Property="Margin" Value="0,0,0,0"/>
+                </Trigger>
+                <Trigger Property="IsVisible" Value="False">
+                    <Setter TargetName="ImageSource" Property="Source" Value="{Binding ElementName=img, Path=Source}"/>
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+    </Window.Resources>
+
+
+    <Border Name="brd" Height="434" Width="651">
+        <Grid>
+            <Border CornerRadius="5" Name="Move">
+                <Border.Background>
+                    <SolidColorBrush Color="Black" Opacity="0.7"/>
+                </Border.Background>
+            </Border>
+            <Border Padding="15">
+                <Grid Name="grdMain">
+                    <ListBox Background="#e9e9e9" Padding="7" HorizontalAlignment="Left" Name="lstName" Width="197" BorderThickness="1">
+                        <!--<ListBoxItem Template="{StaticResource ListBoxTemplate}" Content="sad" IsSelected="True" Name="ListBoxItem1" />-->
+                    </ListBox>
+                    <ListBox Margin="0,25.277,48,0" Name="lstIconList" SelectedItem="0" HorizontalAlignment="Right" Width="128" Visibility="Hidden" Height="86.723" VerticalAlignment="Top" />
+                    <ListBox Margin="264,54,182,0" Name="lstPath" Visibility="Hidden" Height="56" VerticalAlignment="Top" />
+                    <Image HorizontalAlignment="Right" Margin="0,130,73,35" Name="img" Stretch="Fill" Width="200" Visibility="Hidden"/>
+                    <Image HorizontalAlignment="Left" Margin="10,0,0,-32" Name="img2" Stretch="Fill" Visibility="Hidden" Width="200" Height="201" VerticalAlignment="Bottom" />
+                    <TabControl Margin="203,0,0,0" Name="TabControl1" SelectedIndex="0">
+                        <TabItem Header="Icons" Name="TabItem1">
+                            <Grid Background="White" Name="grdIcons" IsEnabled="False">
+                                <ListBox HorizontalContentAlignment="Stretch" Name="lstIcons" Padding="4.5" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Auto" VerticalContentAlignment="Top" Margin="0,0,0,0">
+                                    <ListBox.ItemsPanel>
+                                        <ItemsPanelTemplate>
+                                            <WrapPanel />
+                                        </ItemsPanelTemplate>
+                                    </ListBox.ItemsPanel>
+                                </ListBox>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="New" Name="TabItem2">
+                            <Grid Background="White">
+                                <GroupBox Header="Properties" Margin="8,6,6,0" Height="150" VerticalAlignment="Top">
+                                    <Grid  Background="White">
+                                        <TextBox Height="23" Margin="121,9.447,12,0" Name="txtName" VerticalAlignment="Top" VerticalContentAlignment="Center" BorderBrush="#FF7F9DB9" BorderThickness="1" />
+                                        <ComboBox Height="23" Margin="121,39,36,0" Name="txtTarget" VerticalAlignment="Top" BorderBrush="#FF7F9DB9" VerticalContentAlignment="Center" Text="" IsDropDownOpen="False" IsEditable="True" BorderThickness="0">
+                                            <ComboBoxItem>My Computer</ComboBoxItem>
+                                            <ComboBoxItem>My Documents</ComboBoxItem>
+                                            <ComboBoxItem>My Network Places</ComboBoxItem>
+                                            <ComboBoxItem>My Pictures</ComboBoxItem>
+                                            <ComboBoxItem>My Music</ComboBoxItem>
+                                            <ComboBoxItem>Control Panel</ComboBoxItem>
+                                            <ComboBoxItem>Shutdown Command</ComboBoxItem>
+                                            <ComboBoxItem>Log Off Command</ComboBoxItem>
+                                            <ComboBoxItem>Restart Command</ComboBoxItem>
+                                        </ComboBox>
+                                        <Label Height="23" Margin="16,10,0,0" Name="Label1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="99" VerticalContentAlignment="Top" HorizontalContentAlignment="Right">Name</Label>
+                                        <Label Height="23" HorizontalAlignment="Left" HorizontalContentAlignment="Right" Margin="16,39,0,0" Name="lblTarget" VerticalAlignment="Top" VerticalContentAlignment="Top" Width="99">Target</Label>
+                                        <GroupBox Visibility="Hidden" Header="Preview" Height="73" HorizontalAlignment="Right" Margin="0,0,12,34" Width="66" VerticalAlignment="Bottom">
+                                            <Grid Background="White">
+                                                <Image HorizontalAlignment="Center" VerticalAlignment="Center" Name="imgPreview" Width="48" Height="48" Stretch="Fill" />
+                                            </Grid>
+                                        </GroupBox>
+                                        <Button Height="23" HorizontalAlignment="Left" Margin="6,0,0,6" Name="cmdAddIcon" VerticalAlignment="Bottom" Width="75">Add</Button>
+                                        <Button Height="23" HorizontalAlignment="Right" Margin="290,39,12,0" Name="cmdBrowse" VerticalAlignment="Top">...</Button>
+                                        <RadioButton Visibility="Hidden" Height="16" HorizontalAlignment="Left" Margin="26,45,0,0" IsChecked="True" Name="rdbTarget" VerticalAlignment="Top" Width="20"></RadioButton>
+                                        <TextBox BorderBrush="#FF7F9DB9" Height="23" Margin="121,68,36,0" Name="txtFolder" Text="" VerticalAlignment="Top" VerticalContentAlignment="Center" IsEnabled="False" Visibility="Hidden" />
+                                        <Label Height="23" HorizontalAlignment="Left" HorizontalContentAlignment="Right" Margin="16,68,0,0" Name="lblFolder" VerticalAlignment="Top" VerticalContentAlignment="Top" Width="99" IsEnabled="False" Visibility="Hidden">Popup Folder</Label>
+                                        <Button Height="23" HorizontalAlignment="Right" Margin="0,68,12,0" Name="cmdBrowse2" VerticalAlignment="Top" Width="17.99" IsEnabled="False" Visibility="Hidden">...</Button>
+                                        <RadioButton Height="16" HorizontalAlignment="Left" Margin="26,74,0,0" Name="rdbFolder" VerticalAlignment="Top" Width="20" Visibility="Hidden" />
+                                    </Grid>
+                                </GroupBox>
+                            </Grid>
+                        </TabItem>
+                    </TabControl>
+                    
+                </Grid>
+            </Border>
+            <Button Width="25" Height="25" Name="cls" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Right" Margin="0,5,10,0" VerticalAlignment="Top">X</Button>
+        </Grid> 
+    </Border>
+</Window>

@@ -1,0 +1,314 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{24229BB8-F902-4E01-8AC2-D5E9D192FC36}</ProjectGuid>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FizzDock</RootNamespace>
+    <AssemblyName>FizzDock</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <ApplicationIcon>Icons\data\Fizz.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <IncrementalBuild>true</IncrementalBuild>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>FizzDock.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <IncrementalBuild>false</IncrementalBuild>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>FizzDock.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.Compatibility" />
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="UIAutomationProvider">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="Application.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Extra\MyList.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Extra\wpfMsgBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="wpfDock.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="wpfIconSettings.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="wpfLoad.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="wpfSettings.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="Application.xaml.vb">
+      <DependentUpon>Application.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows" />
+    <Import Include="System.Windows.Controls" />
+    <Import Include="System.Windows.Data" />
+    <Import Include="System.Windows.Documents" />
+    <Import Include="System.Windows.Input" />
+    <Import Include="System.Windows.Shapes" />
+    <Import Include="System.Windows.Media" />
+    <Import Include="System.Windows.Media.Imaging" />
+    <Import Include="System.Windows.Navigation" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Extra\DirListBox.Designer.vb">
+    </Compile>
+    <Compile Include="Extra\DirListBox.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Extra\Dock.vb" />
+    <Compile Include="Extra\FileListBox.Designer.vb">
+    </Compile>
+    <Compile Include="Extra\FileListBox.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Extra\MyList.xaml.vb">
+      <DependentUpon>MyList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Extra\wpfMsgBox.xaml.vb">
+      <DependentUpon>wpfMsgBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWpfExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.WPF.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="wpfDock.xaml.vb">
+      <DependentUpon>wpfDock.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="wpfIconSettings.xaml.vb">
+      <DependentUpon>wpfIconSettings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="wpfLoad.xaml.vb">
+      <DependentUpon>wpfLoad.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="wpfSettings.xaml.vb">
+      <DependentUpon>wpfSettings.xaml</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Extra\DirListBox.resx">
+      <DependentUpon>DirListBox.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Extra\FileListBox.resx">
+      <DependentUpon>FileListBox.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Icons\data\Thumbs.db" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Settings\ahide.h" />
+    <None Include="Settings\align.h" />
+    <None Include="Settings\blur.h" />
+    <None Include="Settings\gcol.h" />
+    <None Include="Settings\gsize.h" />
+    <None Include="Settings\iblur.h" />
+    <None Include="Settings\icons.dat" />
+    <None Include="Settings\igcol.h" />
+    <None Include="Settings\igsize.h" />
+    <None Include="Settings\iop.h" />
+    <None Include="Settings\op.h" />
+    <None Include="Settings\skin.h" />
+    <None Include="Skins\Dark\settings.ini" />
+    <None Include="Skins\Frost\settings.ini" />
+    <None Include="Skins\Ice\settings.ini" />
+    <None Include="Skins\Light Blue\settings.ini" />
+    <None Include="Skins\Light Purple\settings.ini" />
+    <None Include="Skins\Radius Border\settings.ini" />
+    <None Include="Skins\Red\settings.ini" />
+    <None Include="Skins\White\settings.ini" />
+    <None Include="Skins\XPBlue\settings.ini" />
+    <None Include="Skins\Yellow\settings.ini" />
+    <AppDesigner Include="My Project\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Fizz.ico" />
+    <Resource Include="Icons\1111.png" />
+    <Resource Include="Icons\Adobe-Photoshop-1.png" />
+    <Resource Include="Icons\Black-glossy-clock.png" />
+    <Resource Include="Icons\CD.png" />
+    <Resource Include="Icons\Chrome-Lens-flare.png" />
+    <Resource Include="Icons\Clock-256x256.png" />
+    <Resource Include="Icons\Control Panel.png" />
+    <Resource Include="Icons\data\Fizz.ico" />
+    <Resource Include="Icons\data\Fizz.png" />
+    <Resource Include="Icons\data\Help.png" />
+    <Resource Include="Icons\data\Log Off.png" />
+    <Resource Include="Icons\data\Restart.png" />
+    <Resource Include="Icons\data\Shutdown.png" />
+    <Resource Include="Icons\Desktop.png" />
+    <Resource Include="Icons\Document.png" />
+    <Resource Include="Icons\Download.png" />
+    <Resource Include="Icons\emptyfolder.png" />
+    <Resource Include="Icons\Folder.png" />
+    <Resource Include="Icons\Gears of War.png" />
+    <Resource Include="Icons\Globe.png" />
+    <Resource Include="Icons\Google talk icon - enhanced with shadow.png" />
+    <Resource Include="Icons\Google_Chrome_Smooth_Edges.png" />
+    <Resource Include="Icons\Help.png" />
+    <Resource Include="Icons\IE Logo by Creato937.png" />
+    <Resource Include="Icons\interfox.png" />
+    <Resource Include="Icons\itunes_logo-300x300.png" />
+    <Resource Include="Icons\limewire_256.png" />
+    <Resource Include="Icons\Media-player-1.png" />
+    <Resource Include="Icons\mozilla_firefox.png" />
+    <Resource Include="Icons\Music.png" />
+    <Resource Include="Icons\Music2.png" />
+    <Resource Include="Icons\my computer.png" />
+    <Resource Include="Icons\My red stylish clock.png" />
+    <Resource Include="Icons\My-computer.png" />
+    <Resource Include="Icons\My-Documents.png" />
+    <Resource Include="Icons\my-pictures-1.png" />
+    <Resource Include="Icons\My_Documents.png" />
+    <Resource Include="Icons\My_Music.png" />
+    <Resource Include="Icons\My_Pictures.png" />
+    <Resource Include="Icons\Nero_Colosseum.png" />
+    <Resource Include="Icons\Notepad3.png" />
+    <Resource Include="Icons\Picture.png" />
+    <Resource Include="Icons\pictures folder.png" />
+    <Resource Include="Icons\ReflectiveGmail.png" />
+    <Resource Include="Icons\SE_Yahoo Mail.png" />
+    <Resource Include="Icons\Shutdown.png" />
+    <Resource Include="Icons\Silverlight.png" />
+    <Resource Include="Icons\skype-3.png" />
+    <Resource Include="Icons\Steam.png" />
+    <Resource Include="Icons\trad.png" />
+    <Resource Include="Icons\Video.png" />
+    <Resource Include="Icons\Vista.png" />
+    <Resource Include="Icons\visual studio.png" />
+    <Resource Include="Icons\wilber.png" />
+    <Resource Include="Icons\Windows Media Player.png" />
+    <Resource Include="Icons\Windows.png" />
+    <Resource Include="Icons\Xbox360_010.png" />
+    <Resource Include="Skins\Dark\bg.png" />
+    <Resource Include="Skins\Dark\f795832.png" />
+    <Resource Include="Skins\Dark\left.png" />
+    <Resource Include="Skins\Dark\right.png" />
+    <Resource Include="Skins\Frost\bg.png" />
+    <Resource Include="Skins\Frost\Frost.png" />
+    <Resource Include="Skins\Frost\left.png" />
+    <Resource Include="Skins\Frost\right.png" />
+    <Resource Include="Skins\Ice\bg.png" />
+    <Resource Include="Skins\Ice\Ice.png" />
+    <Resource Include="Skins\Ice\left.png" />
+    <Resource Include="Skins\Ice\right.png" />
+    <Resource Include="Skins\Light Blue\bg.png" />
+    <Resource Include="Skins\Light Blue\left.png" />
+    <Resource Include="Skins\Light Blue\Light Blue.png" />
+    <Resource Include="Skins\Light Blue\right.png" />
+    <Resource Include="Skins\Light Purple\bg.png" />
+    <Resource Include="Skins\Light Purple\left.png" />
+    <Resource Include="Skins\Light Purple\Light Purple.png" />
+    <Resource Include="Skins\Light Purple\right.png" />
+    <Resource Include="Skins\Radius Border\bg.png" />
+    <Resource Include="Skins\Radius Border\bga.png" />
+    <Resource Include="Skins\Radius Border\left.png" />
+    <Resource Include="Skins\Radius Border\left1.png" />
+    <Resource Include="Skins\Radius Border\right.png" />
+    <Resource Include="Skins\Red\bg.png" />
+    <Resource Include="Skins\Red\left.png" />
+    <Resource Include="Skins\Red\Red.png" />
+    <Resource Include="Skins\Red\right.png" />
+    <Resource Include="Skins\White\bg.png" />
+    <Resource Include="Skins\White\left.png" />
+    <Resource Include="Skins\White\right.png" />
+    <Resource Include="Skins\White\White.png" />
+    <Resource Include="Skins\XPBlue\bg.png" />
+    <Resource Include="Skins\XPBlue\left.png" />
+    <Resource Include="Skins\XPBlue\right.png" />
+    <Resource Include="Skins\XPBlue\XPBlue.png" />
+    <Resource Include="Skins\Yellow\bg.png" />
+    <Resource Include="Skins\Yellow\left.png" />
+    <Resource Include="Skins\Yellow\right.png" />
+    <Resource Include="Skins\Yellow\Yellow.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

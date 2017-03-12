@@ -1,0 +1,97 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FizzDock
+</name>
+</assembly>
+<members>
+<member name="M:FizzDock.wpfSettings.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:FizzDock.wpfSettings">
+	<summary>
+wpfSettings
+</summary>
+</member><member name="M:FizzDock.wpfIconSettings.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:FizzDock.wpfIconSettings">
+	<summary>
+wpfIconSettings
+</summary>
+</member><member name="M:FizzDock.wpfDock.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:FizzDock.wpfDock">
+	<summary>
+wpfDock
+</summary>
+</member><member name="M:FizzDock.Application.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:FizzDock.Application.Main">
+	<summary>
+Application Entry Point.
+</summary>
+</member><member name="T:FizzDock.Application">
+	<summary>
+Application
+</summary>
+</member><member name="M:FizzDock.wpfLoad.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:FizzDock.wpfLoad">
+	<summary>
+wpfLoad
+</summary>
+</member><member name="M:FizzDock.MyList.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:FizzDock.MyList">
+	<summary>
+MyList
+</summary>
+</member><member name="M:FizzDock.wpfMsgBox.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:FizzDock.wpfMsgBox">
+	<summary>
+wpfMsgBox
+</summary>
+</member><member name="P:FizzDock.My.MyWpfExtension.Application">
+	<summary>
+ Returns the application object for the running application
+ </summary>
+</member><member name="P:FizzDock.My.MyWpfExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:FizzDock.My.MyWpfExtension.User">
+	<summary>
+ Returns information for the current user.  If you wish to run the application with the current 
+ Windows user credentials, call My.User.InitializeWithWindowsUser().
+ </summary>
+</member><member name="P:FizzDock.My.MyWpfExtension.Log">
+	<summary>
+ Returns the application log. The listeners can be configured by the application's configuration file.
+ </summary>
+</member><member name="P:FizzDock.My.MyWpfExtension.Windows">
+	<summary>
+ Returns the collection of Windows defined in the project.
+ </summary>
+</member><member name="T:FizzDock.My.MyWpfExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for WPF
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

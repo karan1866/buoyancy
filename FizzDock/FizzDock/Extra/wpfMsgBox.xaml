@@ -1,0 +1,9 @@
+﻿<Window x:Class="wpfMsgBox"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Topmost="True" WindowStartupLocation="CenterScreen" 
+    Title="Target Type" ShowInTaskbar="False" Height="75" Width="195" Background="#ece9d8" ResizeMode="NoResize" WindowStyle="ToolWindow" Name="Window1">
+    <Grid Background="#ece9d8" Name="grdMain" Height="40" Width="170">
+        <Button HorizontalAlignment="Left" Margin="10" Height="23" Name="cmdFile" Width="75" VerticalAlignment="Center" >File</Button>
+        <Button Margin="10" Height="23" Name="cmdFolder" HorizontalAlignment="Right" Width="75" VerticalAlignment="Center" >Folder</Button>
+    </Grid>
+</Window>
