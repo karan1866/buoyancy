@@ -1,0 +1,20 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	x:Class="xButton"
+	x:Name="xButton"
+	d:DesignWidth="73" d:DesignHeight="25">
+
+	<Grid x:Name="LayoutRoot">
+		<Border Background="#FF646464" CornerRadius="2,2,2,2" x:Name="Button" Cursor="Hand">
+			<Grid>
+				<Border CornerRadius="2,2,2,2" x:Name="Up" Visibility="hidden" Background="#FFA1A1A1" />
+				<Border CornerRadius="2,2,2,2" x:Name="Down" Visibility="hidden" Background="#FF262626" />
+				<Label Content="Button" Foreground="#FFFFFFFF" FontFamily="./Fonts\#Calibri" FontSize="18" HorizontalContentAlignment="Center" Name="Content" VerticalContentAlignment="Bottom" FontWeight="Normal" Margin="0,-4,0,0"/>
+			</Grid>
+		</Border>
+	</Grid>
+</UserControl>

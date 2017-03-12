@@ -1,0 +1,40 @@
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\Solver\bin\Debug\Solver.exe
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\Solver\bin\Debug\Solver.pdb
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\Solver\bin\Debug\Solver.xml
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\Solver\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\Solver\obj\Debug\Solver.Form1.resources
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\Solver\obj\Debug\Solver.Resources.resources
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\Solver\obj\Debug\Solver.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\Solver\obj\Debug\Solver.exe
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\Solver\obj\Debug\Solver.xml
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\Solver\obj\Debug\Solver.pdb
+C:\Documents and Settings\Administrator\Desktop\Solver\Solver\obj\Debug\Solver.exe
+C:\Documents and Settings\Administrator\Desktop\Solver\Solver\obj\Debug\Solver.xml
+C:\Documents and Settings\Administrator\Desktop\Solver\Solver\obj\Debug\Solver.pdb
+C:\Documents and Settings\Administrator\Desktop\Solver\Solver\bin\Debug\Solver.exe
+C:\Documents and Settings\Administrator\Desktop\Solver\Solver\bin\Debug\Solver.pdb
+C:\Documents and Settings\Administrator\Desktop\Solver\Solver\bin\Debug\Solver.xml
+C:\Documents and Settings\Administrator\Desktop\Solver\Solver\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Solver\Solver\obj\Debug\Solver.Form1.resources
+C:\Documents and Settings\Administrator\Desktop\Solver\Solver\obj\Debug\Solver.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\Solver\Solver\obj\Debug\Solver.vbproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\Windows\Projects\Solver\Solver\obj\Debug\Solver.xml
+\\vmware-host\Shared Folders\Windows\Projects\Solver\Solver\obj\Debug\Solver.pdb
+\\vmware-host\Shared Folders\Windows\Projects\Solver\Solver\bin\Debug\Solver.exe
+\\vmware-host\Shared Folders\Windows\Projects\Solver\Solver\bin\Debug\Solver.pdb
+\\vmware-host\Shared Folders\Windows\Projects\Solver\Solver\bin\Debug\Solver.xml
+\\vmware-host\Shared Folders\Windows\Projects\Solver\Solver\obj\Debug\ResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Windows\Projects\Solver\Solver\obj\Debug\Solver.Form1.resources
+\\vmware-host\Shared Folders\Windows\Projects\Solver\Solver\obj\Debug\Solver.Resources.resources
+\\vmware-host\Shared Folders\Windows\Projects\Solver\Solver\obj\Debug\Solver.vbproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\Windows\Projects\Solver\Solver\obj\Debug\Solver.exe
+\\vmware-host\Shared Folders\Windows\Projects\Sudoku Solver\Solver\Solver\obj\Debug\Solver.exe
+\\vmware-host\Shared Folders\Windows\Projects\Sudoku Solver\Solver\Solver\obj\Debug\Solver.xml
+\\vmware-host\Shared Folders\Windows\Projects\Sudoku Solver\Solver\Solver\obj\Debug\Solver.pdb
+\\vmware-host\Shared Folders\Windows\Projects\Sudoku Solver\Solver\Solver\obj\Debug\ResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Windows\Projects\Sudoku Solver\Solver\Solver\obj\Debug\Solver.Form1.resources
+\\vmware-host\Shared Folders\Windows\Projects\Sudoku Solver\Solver\Solver\obj\Debug\Solver.Resources.resources
+\\vmware-host\Shared Folders\Windows\Projects\Sudoku Solver\Solver\Solver\obj\Debug\Solver.vbproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\Windows\Projects\Sudoku Solver\Solver\Solver\bin\Debug\Solver.exe
+\\vmware-host\Shared Folders\Windows\Projects\Sudoku Solver\Solver\Solver\bin\Debug\Solver.pdb
+\\vmware-host\Shared Folders\Windows\Projects\Sudoku Solver\Solver\Solver\bin\Debug\Solver.xml

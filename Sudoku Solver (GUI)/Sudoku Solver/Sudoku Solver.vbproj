@@ -1,0 +1,87 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition="'$(Configuration)'==''">Debug</Configuration>
+    <DefaultClrNameSpace>Sudoku_Solver</DefaultClrNameSpace>
+    <AssemblyName>Sudoku_Solver</AssemblyName>
+    <RootNamespace>Sudoku_Solver</RootNamespace>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <ApplicationVersion>1.0.0.*</ApplicationVersion>
+    <ApplicationRevision>0</ApplicationRevision>
+    <AlwaysCompileMarkupFilesInSeparateDomain>false</AlwaysCompileMarkupFilesInSeparateDomain>
+    <ExpressionBlendCreationVersion>2.0.1523.0</ExpressionBlendCreationVersion>
+    <ProjectGuid>{A8C8B953-1E2A-4A8F-BEE9-6801A700E116}</ProjectGuid>
+    <TargetFrameworkVersion>v3.0</TargetFrameworkVersion>
+    <OutputType>WinExe</OutputType>
+    <ApplicationIcon>Application.ico</ApplicationIcon>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="WindowsBase" />
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="App.xaml.vb">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AssemblyInfo.vb" />
+    <Compile Include="Box.xaml.vb">
+      <DependentUpon>Box.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Logic.vb" />
+    <Compile Include="xButton.xaml.vb">
+      <DependentUpon>xButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="wpfMain.xaml.vb">
+      <DependentUpon>wpfMain.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Box.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Simple Styles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="xButton.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="wpfMain.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <BlendEmbeddedFont Include="Fonts\CALIBRI.TTF">
+      <IsSystemFont>True</IsSystemFont>
+      <All>True</All>
+    </BlendEmbeddedFont>
+    <BlendEmbeddedFont Include="Fonts\CALIBRIB.TTF">
+      <IsSystemFont>True</IsSystemFont>
+      <All>True</All>
+    </BlendEmbeddedFont>
+    <BlendEmbeddedFont Include="Fonts\CALIBRII.TTF">
+      <IsSystemFont>True</IsSystemFont>
+      <All>True</All>
+    </BlendEmbeddedFont>
+    <BlendEmbeddedFont Include="Fonts\CALIBRIZ.TTF">
+      <IsSystemFont>True</IsSystemFont>
+      <All>True</All>
+    </BlendEmbeddedFont>
+    <Resource Include="Images\down.png" />
+    <Resource Include="Images\frame.png" />
+    <Resource Include="Images\sudoku1.png" />
+    <Resource Include="Images\sudoku2.png" />
+    <Resource Include="Images\up.png" />
+  </ItemGroup>
+  <Import Project="SubsetFont.targets" />
+  <ItemGroup>
+    <Folder Include="My Project\" />
+  </ItemGroup>
+</Project>

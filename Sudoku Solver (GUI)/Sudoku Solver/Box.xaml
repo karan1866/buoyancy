@@ -1,0 +1,17 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	x:Class="Box"
+	x:Name="UserControl"
+	d:DesignHeight="40" d:DesignWidth="40">
+
+	<Grid x:Name="LayoutRoot">
+        <Grid Name="Radius" Visibility="Hidden" Height="0"/>
+	    <Border Name="Cell" Margin="1,1,1,1" Background="#FFFFFFFF" CornerRadius="{Binding Path=ActualHeight, ElementName=Radius, Mode=Default}" BorderBrush="#FF222222" BorderThickness="0,0,0,0">
+			<Label Name="Label" Width="Auto" Height="Auto" Content="" FontFamily="./Fonts\#Calibri" d:IsStaticText="False" FontWeight="Bold" FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+		</Border>
+	</Grid>
+</UserControl>

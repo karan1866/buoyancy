@@ -1,0 +1,36 @@
+C:\Documents and Settings\Administrator\My Documents\Expression\Expression Blend Projects\Sudoku Solver\Sudoku Solver\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Expression\Expression Blend Projects\Sudoku Solver\Sudoku Solver\obj\Debug\Box.baml
+C:\Documents and Settings\Administrator\My Documents\Expression\Expression Blend Projects\Sudoku Solver\Sudoku Solver\obj\Debug\Box.g.vb
+C:\Documents and Settings\Administrator\My Documents\Expression\Expression Blend Projects\Sudoku Solver\Sudoku Solver\obj\Debug\App.g.vb
+C:\Documents and Settings\Administrator\My Documents\Expression\Expression Blend Projects\Sudoku Solver\Sudoku Solver\obj\Debug\Sudoku_Solver_MarkupCompile.cache
+C:\Documents and Settings\Administrator\My Documents\Expression\Expression Blend Projects\Sudoku Solver\Sudoku Solver\obj\Debug\Sudoku_Solver_MarkupCompile.lref
+C:\Documents and Settings\Administrator\My Documents\Expression\Expression Blend Projects\Sudoku Solver\Sudoku Solver\bin\Debug\Sudoku_Solver.exe
+C:\Documents and Settings\Administrator\My Documents\Expression\Expression Blend Projects\Sudoku Solver\Sudoku Solver\bin\Debug\Sudoku_Solver.pdb
+C:\Documents and Settings\Administrator\My Documents\Expression\Expression Blend Projects\Sudoku Solver\Sudoku Solver\obj\Debug\Sudoku_Solver.g.resources
+C:\Documents and Settings\Administrator\My Documents\Expression\Expression Blend Projects\Sudoku Solver\Sudoku Solver\obj\Debug\Sudoku_Solver.exe
+C:\Documents and Settings\Administrator\My Documents\Expression\Expression Blend Projects\Sudoku Solver\Sudoku Solver\obj\Debug\Sudoku_Solver.pdb
+C:\Documents and Settings\Administrator\My Documents\Expression\Expression Blend Projects\Sudoku Solver\Sudoku Solver\obj\Debug\wpfMain.g.vb
+C:\Documents and Settings\Administrator\My Documents\Expression\Expression Blend Projects\Sudoku Solver\Sudoku Solver\obj\Debug\wpfMain.baml
+C:\Documents and Settings\Administrator\My Documents\Expression\Expression Blend Projects\Sudoku Solver\Sudoku Solver\obj\Debug\xButton.baml
+C:\Documents and Settings\Administrator\My Documents\Expression\Expression Blend Projects\Sudoku Solver\Sudoku Solver\obj\Debug\xButton.g.vb
+C:\Documents and Settings\Administrator\My Documents\Expression\Expression Blend Projects\Sudoku Solver\Sudoku Solver\obj\Debug\GeneratedInternalTypeHelper.g.vb
+C:\Documents and Settings\Administrator\My Documents\Expression\Expression Blend Projects\Sudoku Solver\Sudoku Solver\obj\Debug\Simple Styles.baml
+C:\Documents and Settings\Administrator\My Documents\Expression\Expression Blend Projects\Sudoku Solver\Sudoku Solver\obj\Debug\App.baml
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\Sudoku Solver\Sudoku Solver\obj\Debug\Sudoku_Solver.exe
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\Sudoku Solver\Sudoku Solver\obj\Debug\Sudoku_Solver.pdb
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\Sudoku Solver\Sudoku Solver\bin\Debug\Sudoku_Solver.exe
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\Sudoku Solver\Sudoku Solver\bin\Debug\Sudoku_Solver.pdb
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\Sudoku Solver\Sudoku Solver\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\Sudoku Solver\Sudoku Solver\obj\Debug\Box.baml
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\Sudoku Solver\Sudoku Solver\obj\Debug\Simple Styles.baml
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\Sudoku Solver\Sudoku Solver\obj\Debug\xButton.baml
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\Sudoku Solver\Sudoku Solver\obj\Debug\App.baml
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\Sudoku Solver\Sudoku Solver\obj\Debug\Box.g.vb
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\Sudoku Solver\Sudoku Solver\obj\Debug\xButton.g.vb
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\Sudoku Solver\Sudoku Solver\obj\Debug\wpfMain.g.vb
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\Sudoku Solver\Sudoku Solver\obj\Debug\App.g.vb
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\Sudoku Solver\Sudoku Solver\obj\Debug\GeneratedInternalTypeHelper.g.vb
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\Sudoku Solver\Sudoku Solver\obj\Debug\Sudoku_Solver_MarkupCompile.cache
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\Sudoku Solver\Sudoku Solver\obj\Debug\Sudoku_Solver_MarkupCompile.lref
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\Sudoku Solver\Sudoku Solver\obj\Debug\wpfMain.baml
+C:\Users\Karan\Documents\Visual Studio 2008\Projects\Sudoku Solver\Sudoku Solver\obj\Debug\Sudoku_Solver.g.resources

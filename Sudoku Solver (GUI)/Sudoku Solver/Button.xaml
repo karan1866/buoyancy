@@ -1,0 +1,27 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	x:Class="Button"
+	x:Name="UserControl"
+	d:DesignWidth="73" d:DesignHeight="25">
+
+	<Grid x:Name="LayoutRoot">
+		<Border Background="#FF646464" CornerRadius="2,2,2,2" x:Name="Button" Cursor="Hand">
+			<Grid>
+				<Border CornerRadius="2,2,2,2" x:Name="Up" Visibility="Hidden" >
+					<Border.Background>
+						<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+							<GradientStop Color="#FFFF6800" Offset="1"/>
+							<GradientStop Color="#FFFF9248" Offset="0"/>
+						</LinearGradientBrush>
+					</Border.Background>
+				</Border>
+				<Border CornerRadius="2,2,2,2" x:Name="Down" Visibility="hidden" Background="#FFFF6700" />
+				<Label Content="solve" Foreground="#FFFFFFFF" FontFamily="./Fonts\#Calibri" FontSize="18" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" FontWeight="Normal" Margin="0,-4,0,0"/>
+			</Grid>
+		</Border>
+	</Grid>
+</UserControl>

@@ -1,0 +1,102 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"
+	x:Class="wpfMain"
+	x:Name="wpfMain"
+	Title="Sudoku Solver"
+	Width="672" Height="544" ResizeMode="NoResize" Background="{x:Null}" AllowsTransparency="True" xmlns:Sudoku_Solver="clr-namespace:Sudoku_Solver" WindowStyle="None">
+    <Grid x:Name="LayoutRoot">
+        <Image Width="658" Height="544" VerticalAlignment="Top" Source="Images\frame.png" Stretch="Fill" Margin="7,0,7,0" x:Name="Shadow"/>
+    	<Border Margin="21,26,21,16" Background="#FF565656" CornerRadius="2" BorderThickness="1,1,1,1" BorderBrush="#FF444444">
+    		<Grid>
+    			<Grid Background="#FF999999" VerticalAlignment="Top" Height="50" x:Name="DragSpot" Width="204" HorizontalAlignment="Right" Margin="0,0,84,0">
+    				<Image Source="Images\sudoku2.png" Stretch="Fill" VerticalAlignment="Top" Height="33.186" Margin="0,-7,10.406,0" Width="144.594" HorizontalAlignment="Right"/>
+    				<Image Source="Images\sudoku1.png" Stretch="Fill" VerticalAlignment="Top" Height="49.778" Margin="0,-15,160.845,0" Width="29.155" HorizontalAlignment="Right"/>
+				</Grid>
+    			<Grid VerticalAlignment="Top" Height="40">
+    				<Border x:Name="_Close" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,3,3,0" Height="22" Width="22" Background="#FFFFFFFF" CornerRadius="2" Cursor="Hand">
+    					<Label Width="Auto" Height="Auto" Content="X" FontFamily="./Fonts\#Calibri" d:IsStaticText="False" FontWeight="Bold" FontSize="10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="#FF333333"/>
+    				</Border>
+    				<Border Height="22" Width="22" Background="#FFFFFFFF" CornerRadius="2" x:Name="Min" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,3,27,0" Cursor="Hand">
+    					<Label Width="Auto" Height="Auto" Content="_" FontFamily="./Fonts\#Calibri" d:IsStaticText="False" FontWeight="Normal" FontSize="10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="#FF333333" FontStyle="Normal"/>
+    				</Border>
+    				<Sudoku_Solver:xButton Text="solve" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="7,7,0,0" Width="73" Height="25" x:Name="Solve" Brush_Down="#FFFF6700">
+    					<Sudoku_Solver:xButton.Brush_Up>
+    						<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+    							<GradientStop Color="#FFFF6800" Offset="1"/>
+    							<GradientStop Color="#FFFF9248" Offset="0"/>
+    						</LinearGradientBrush>
+    					</Sudoku_Solver:xButton.Brush_Up>
+    				</Sudoku_Solver:xButton>
+					<Sudoku_Solver:xButton Text="clear" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="85,7,0,8" Width="55" Height="25" x:Name="Clear">
+						<Sudoku_Solver:xButton.Brush_Down>
+    						<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+    							<GradientStop Color="#FF202020" Offset="0"/>
+    							<GradientStop Color="#FF393939" Offset="1"/>
+    						</LinearGradientBrush>
+						</Sudoku_Solver:xButton.Brush_Down>
+						<Sudoku_Solver:xButton.Brush_Up>
+    						<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+    							<GradientStop Color="#FF2F2F2F" Offset="1"/>
+    							<GradientStop Color="#FF434343" Offset="0"/>
+    						</LinearGradientBrush>
+						</Sudoku_Solver:xButton.Brush_Up>
+					</Sudoku_Solver:xButton>
+    			</Grid>
+    			<Border CornerRadius="3" Width="500" Height="424" Background="#FFFFFFFF" BorderBrush="#FFA1A1A1" BorderThickness="2,2,2,2" VerticalAlignment="Bottom" Margin="0,0,0,30" x:Name="Sudoku">
+    				<Grid Margin="0,0,0,0 " Width="450" Height="374">
+    					<Border HorizontalAlignment="Left" Width="374" Height="374" Background="#B29ECEFF">
+    						<Grid d:LayoutOverrides="Margin" Margin="0,0,0,0" x:Name="InnerTable" Width="366" Height="366">
+    							<WrapPanel HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="120"/>
+    							<WrapPanel VerticalAlignment="Top" Height="120" Margin="123,0,0,0" HorizontalAlignment="Left" Width="120"/>
+    							<WrapPanel HorizontalAlignment="Left" Margin="246,0,0,0" VerticalAlignment="Top" Width="120" Height="120"/>
+    							<WrapPanel HorizontalAlignment="Left" Margin="0,123,0,0" VerticalAlignment="Top" Width="120" Height="120"/>
+    							<WrapPanel HorizontalAlignment="Left" Margin="123,123,0,0" VerticalAlignment="Top" Width="120" Height="120"/>
+    							<WrapPanel HorizontalAlignment="Left" Margin="246,123,0,0" VerticalAlignment="Top" Width="120" Height="120"/>
+    							<WrapPanel HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="120" Margin="0,246,0,0"/>
+    							<WrapPanel HorizontalAlignment="Left" Margin="123,246,0,0" VerticalAlignment="Top" Width="120" Height="120"/>
+    							<WrapPanel HorizontalAlignment="Left" Margin="246,246,0,0" VerticalAlignment="Top" Width="120" Height="120"/>
+    						</Grid>
+    					</Border>
+    					<Border Background="#7F9ECEFF" CornerRadius="3" HorizontalAlignment="Right" Height="372" Width="44" Padding="2,1,2,1">
+    						<UniformGrid x:Name="Digits" Columns="1" Rows="9"/>
+    					</Border>
+    				</Grid>
+    			</Border>
+				<Border CornerRadius="3" Width="500" Background="#CC000000" Margin="64,46,64,30" x:Name="Message" Visibility="Hidden">
+	    		<Border Margin="22" VerticalAlignment="Top" Height="121" BorderBrush="#FF7E7E7E" BorderThickness="1,1,1,1" CornerRadius="3,3,3,3" >
+	    			<Grid>
+	    				<TextBlock TextWrapping="Wrap" Foreground="#FFFFFFFF" FontFamily="./Fonts\#Calibri" Margin="10,8" FontSize="22" TextAlignment="Justify" Text="Invalid Sudoku !" x:Name="Text"/>
+	    				<Sudoku_Solver:xButton HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="50" Text="ok" Height="30" Margin="0,0,8,8" Brush_Normal="#FF006FFF" x:Name="ok">
+	    					<Sudoku_Solver:xButton.Brush_Down>
+	    						<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+	    							<GradientStop Color="#FF0060DD" Offset="0.996"/>
+	    							<GradientStop Color="#FF0048A6" Offset="0"/>
+	    						</LinearGradientBrush>
+	    					</Sudoku_Solver:xButton.Brush_Down>
+	    					<Sudoku_Solver:xButton.Brush_Up>
+	    						<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+	    							<GradientStop Color="#FF006EFF" Offset="1"/>
+	    							<GradientStop Color="#FF4093FF" Offset="0"/>
+	    						</LinearGradientBrush>
+	    					</Sudoku_Solver:xButton.Brush_Up>
+
+	    				</Sudoku_Solver:xButton>
+	    				<Grid VerticalAlignment="Bottom" Height="24" Margin="12,0,66,10" Background="#4C515151" x:Name="Brute" Visibility="Hidden">
+								
+	    					<Label HorizontalAlignment="Left" Margin="6,3,0,5" Style="{DynamicResource SimpleLabel}" Width="40" Content="Use:" FontFamily="./Fonts\#Calibri" FontSize="14" FontWeight="Normal" Foreground="#FFFFFFFF" HorizontalContentAlignment="Center"/>
+								
+	    					<RadioButton Style="{DynamicResource SimpleRadioButton}" Content="  Brute Force (Normal)" Foreground="#FFFFFFFF" Width="126" HorizontalAlignment="Left" Margin="51,5,0,3" x:Name="Op1" FontFamily="./Fonts\#Calibri"/>
+	    					<RadioButton Style="{DynamicResource SimpleRadioButton}" Content="  Brute Force (Random)" Foreground="#FFFFFFFF" Margin="179,5,71,3" x:Name="Op2" FontFamily="./Fonts\#Calibri"/>
+	    					<RadioButton Style="{DynamicResource SimpleRadioButton}" Content="  Nothing" Foreground="#FFFFFFFF" Margin="0,5,5,6" Width="60" HorizontalAlignment="Right" x:Name="Op3" FontFamily="./Fonts\#Calibri" IsChecked="True"/>
+	    				</Grid>
+	    			</Grid>
+	    		</Border>
+	    	</Border>
+			</Grid>
+    	</Border>
+    	<TextBox HorizontalAlignment="Left" Margin="-1000,-1000,0,0" VerticalAlignment="Top" Width="75" Height="28" Text="TextBox" TextWrapping="Wrap" x:Name="Keylogger" d:IsLocked="True"/>
+    	
+    </Grid> 
+</Window>
